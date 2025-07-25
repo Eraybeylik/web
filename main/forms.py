@@ -1,4 +1,5 @@
 from django import forms
+from django.utils.translation import gettext_lazy as _
 from .models import Contact
 
 
@@ -11,29 +12,29 @@ class ContactForm(forms.ModelForm):
         widgets = {
             'name': forms.TextInput(attrs={
                 'class': 'form-control',
-                'placeholder': 'Your Full Name *',
+                'placeholder': _('Ad Soyad'),
                 'required': True
             }),
             'email': forms.EmailInput(attrs={
                 'class': 'form-control',
-                'placeholder': 'Your Email Address *',
+                'placeholder': _('E-posta Adresiniz'),
                 'required': True
             }),
             'phone': forms.TextInput(attrs={
                 'class': 'form-control',
-                'placeholder': 'Your Phone Number (Optional)'
+                'placeholder': _('Telefon Numaranız (İsteğe bağlı)')
             }),
             'inquiry_type': forms.Select(attrs={
                 'class': 'form-control'
             }),
             'subject': forms.TextInput(attrs={
                 'class': 'form-control',
-                'placeholder': 'Subject *',
+                'placeholder': _('Konu'),
                 'required': True
             }),
             'message': forms.Textarea(attrs={
                 'class': 'form-control',
-                'placeholder': 'Your Message *',
+                'placeholder': _('Mesajınız'),
                 'rows': 6,
                 'required': True
             }),
@@ -48,5 +49,5 @@ class ContactForm(forms.ModelForm):
     def clean_name(self):
         name = self.cleaned_data.get('name')
         if name and len(name.strip()) < 2:
-            raise forms.ValidationError("Name must be at least 2 characters long.")
+            raise forms.ValidationError(_("Ad en az 2 karakter olmalıdır."))
         return name.strip() if name else name

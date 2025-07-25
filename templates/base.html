@@ -1,17 +1,18 @@
 {% load static %}
 <!DOCTYPE html>
-<html lang="en">
+<html lang="tr">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="{% block meta_description %}Professional work permit and residence permit consultancy services. Expert guidance for immigration and visa applications.{% endblock %}">
+    <meta name="description" content="{% block meta_description %}Profesyonel çalışma izni ve ikamet izni danışmanlık hizmetleri. Göçmenlik ve vize başvuruları için uzman rehberlik.{% endblock %}">
     <meta name="keywords" content="work permit, residence permit, visa consultation, immigration services, permit application">
     <meta name="author" content="Permit Consultancy Services">
     
-    <title>{% block title %}Permit Consultancy - Professional Immigration Services{% endblock %}</title>
+    <title>{% block title %}İzin Danışmanlığı - Profesyonel Göçmenlik Hizmetleri{% endblock %}</title>
     
     <!-- Favicon -->
-    <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>🏛️</text></svg>">
+    <link rel="icon" type="image/png" href="{% static 'images/favicon.svg' %}">
+
     
     <!-- CSS -->
     <link rel="stylesheet" href="{% static 'css/style.css' %}">
@@ -25,15 +26,20 @@
     <!-- Header -->
     <header class="header">
         <div class="container">
-            <a href="{% url 'home' %}" class="logo">
-                <i class="fas fa-landmark"></i> Permit Consultancy
+            <a href="{% url 'home' %}" class="logo" style="display: flex; align-items: center; gap: 0.5rem;">
+                <img src="{% static 'images/logo.png' %}" alt="My World Danışmanlık Logo"
+                    style="height: 28px;">
+                <span style="font-size: 1.1rem; font-weight: bold; color: white;">My World Danışmanlık</span>
             </a>
+
+
+
             
             <nav>
                 <ul class="nav-menu" id="nav-menu">
-                    <li><a href="{% url 'home' %}" class="{% if request.resolver_match.url_name == 'home' %}active{% endif %}">Home</a></li>
-                    <li><a href="{% url 'services' %}" class="{% if request.resolver_match.url_name == 'services' %}active{% endif %}">Services</a></li>
-                    <li><a href="{% url 'contact' %}" class="{% if request.resolver_match.url_name == 'contact' %}active{% endif %}">Contact</a></li>
+                    <li><a href="{% url 'home' %}" class="{% if request.resolver_match.url_name == 'home' %}active{% endif %}">Anasayfa</a></li>
+                    <li><a href="{% url 'services' %}" class="{% if request.resolver_match.url_name == 'services' %}active{% endif %}">Hizmetler</a></li>
+                    <li><a href="{% url 'contact' %}" class="{% if request.resolver_match.url_name == 'contact' %}active{% endif %}">İletişim</a></li>
                 </ul>
                 
                 <button class="mobile-menu-toggle" id="mobile-menu-toggle">
@@ -66,50 +72,31 @@
             <div class="footer-content">
                 <!-- Company Info -->
                 <div class="footer-section">
-                    <h3><i class="fas fa-landmark"></i> Permit Consultancy</h3>
-                    <p>Your trusted partner for work permit and residence permit services. We provide expert guidance and support throughout your immigration journey.</p>
-                    <div style="margin-top: 1rem;">
-                        <a href="#" style="margin-right: 1rem; font-size: 1.2rem;"><i class="fab fa-facebook"></i></a>
-                        <a href="#" style="margin-right: 1rem; font-size: 1.2rem;"><i class="fab fa-linkedin"></i></a>
-                        <a href="#" style="margin-right: 1rem; font-size: 1.2rem;"><i class="fab fa-twitter"></i></a>
-                        <a href="#" style="font-size: 1.2rem;"><i class="fab fa-instagram"></i></a>
-                    </div>
-                </div>
-                
-                <!-- Quick Links -->
-                <div class="footer-section">
-                    <h3><i class="fas fa-link"></i> Quick Links</h3>
-                    <a href="{% url 'home' %}">Home</a>
-                    <a href="{% url 'services' %}">Our Services</a>
-                    <a href="{% url 'contact' %}">Contact Us</a>
-                    <a href="#about">About Us</a>
-                    <a href="#testimonials">Testimonials</a>
+                    <h3>My World Danışmanlık</h3>
+                    <p>Türkiye'deki yasal süreçlerinizde güvenilir ortağınız.</p>
                 </div>
                 
                 <!-- Services -->
                 <div class="footer-section">
-                    <h3><i class="fas fa-briefcase"></i> Our Services</h3>
-                    <a href="{% url 'services' %}#work-permits">Work Permits</a>
-                    <a href="{% url 'services' %}#residence-permits">Residence Permits</a>
-                    <a href="{% url 'services' %}#visa-consultation">Visa Consultation</a>
-                    <a href="{% url 'services' %}#document-review">Document Review</a>
-                    <a href="{% url 'services' %}#application-support">Application Support</a>
+                    <h3>Hizmetlerimiz</h3>
+                    <a href="{% url 'service_work_permit' %}">Çalışma İzni</a>
+                    <a href="{% url 'service_residence_permit' %}">İkamet İzni</a>
+                    <a href="{% url 'service_citizenship' %}">Vatandaşlık</a>
                 </div>
                 
+
                 <!-- Contact Info -->
                 <div class="footer-section">
-                    <h3><i class="fas fa-address-book"></i> Contact Info</h3>
-                    <p><i class="fas fa-map-marker-alt"></i> 123 Business District<br>Professional City, PC 12345</p>
-                    <p><i class="fas fa-phone"></i> +1 (555) 123-4567</p>
-                    <p><i class="fas fa-envelope"></i> info@permitconsultancy.com</p>
-                    <p><i class="fas fa-clock"></i> Mon-Fri: 9:00 AM - 6:00 PM<br>Sat: 10:00 AM - 4:00 PM</p>
+                    <h3>İletişim</h3>
+                    <p>E-posta: <a href="mailto:info@myworlddanismanlik.com">info@myworlddanismanlik.com</a></p>
+                    <p>Telefon: <a href="tel:+905330450580">+90 533 045 05 80</a></p>
+                    <p>Adres: Liman Mah. Atatürk Bulvarı (İş Bankası Yanı) Heniye Hanım Apartmanı 283/4 Konyaaltı / Antalya</p>
                 </div>
             </div>
+
             
             <div class="footer-bottom">
-                <p>&copy; {% now "Y" %} Permit Consultancy Services. All rights reserved. | 
-                <a href="#privacy">Privacy Policy</a> | 
-                <a href="#terms">Terms of Service</a></p>
+                <p>&copy; {% now "Y" %} My World Danışmanlık. Tüm hakları saklıdır.</p>
             </div>
         </div>
     </footer>

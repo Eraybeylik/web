@@ -1,0 +1,137 @@
+{% extends 'base.html' %}
+
+{% block title %}Vatandaşlık Hizmetleri - My World Danışmanlık{% endblock %}
+
+{% block meta_description %}Türk vatandaşlığı başvuru süreçleri hakkında detaylı bilgi. İstisnai durum, evlilik ve diğer yollarla vatandaşlık danışmanlığı.{% endblock %}
+
+{% block content %}
+<section class="hero" style="padding: 4rem 0;">
+    <div class="container">
+        <div class="hero-content">
+            <div style="display: flex; align-items: center; gap: 1rem; margin-bottom: 1rem;">
+                <a href="{% url 'services' %}" class="btn" style="background: transparent; color: var(--primary-blue); border: 1px solid var(--primary-blue); padding: 0.5rem 1rem; text-decoration: none;">
+                    <i class="fas fa-arrow-left"></i> Hizmetlere Dön
+                </a>
+            </div>
+            <h1><i class="fas fa-passport"></i> Türk Vatandaşlığı Hizmetleri</h1>
+            <p>Türk vatandaşlığı alma süreçlerinde kapsamlı danışmanlık ve profesyonel destek hizmetleri.</p>
+        </div>
+    </div>
+</section>
+
+<section class="section">
+    <div class="container">
+        <div class="content-wrapper" style="max-width: 800px; margin: 0 auto;">
+            <div class="content-block">
+                <h2>Türk Vatandaşlığı Hakkında</h2>
+                <p>Türk Vatandaşlığı başvuru koşulları için yeni yapılan düzenlemeler ve yayınlanan kanunlar ile birlikte tüm güncel mevzuata uygun başvurularınız için size destek oluyoruz. Türk vatandaşı olmak için gerekli koşullar, başvuru süreci, başvurunun takibi ve sonuçlandırılması için bize ulaşabilirsiniz.</p>
+                <p>19 Eylül 2018 tarihinde Türk Vatandaşlığı kanununda yapılan değişiklik ile Türk vatandaşlığına başvuru koşullarında güncelleme yapılmıştır. Yeni uygulama ile birlikte 250 bin dolar değerinde gayrimenkul sahibi olanlar, mülklerini 3 yıl boyunca satmamak kaydı ile vatandaşlığa geçiş yapabilmekteydiler. Fakat vatandaşlık için gayrimenkul değeri 12/06/2022 tarihi itibariyle 400 bin dolar olarak güncellenmiştir.</p>
+            </div>
+
+            <div class="content-block">
+                <h2>Türk Vatandaşlığı’nı Kazanmanın Yolları</h2>
+                <p>Türk Vatandaşlığı ya doğum ile birlikte kazanılır ya da sonradan başvuru ile elde edilir. Doğum ile vatandaşlıkta soy bağı ve doğum yeri esastır, doğum ile birlikte yürürlüğe girer. Sonradan ise bir çok alt başlık altında değerlendirilir.</p>
+            </div>
+
+            <div class="content-block">
+                <h3>Yatırım Yoluyla İstisnai Vatandaşlık</h3>
+                <ul>
+                    <li>En az 400.000 USD değerinde gayrimenkul satın alanlar</li>
+                    <li>En az 500.000 USD değerinde mevduatı Türk bankalarında 3 yıl boyunca tutanlar</li>
+                    <li>En az 500.000 USD değerinde sabit sermaye yatırımı yapanlar</li>
+                    <li>En az 50 kişilik istihdam oluşturanlar bu haktan faydalanabilirler</li>
+                </ul>
+            </div>
+
+            <div class="content-block">
+                <h3>Genel Yoldan Vatandaşlık</h3>
+                <ul>
+                    <li>Başvuru tarihinden geriye doğru Türkiye’de kesintisiz beş yıl ikamet etmiş olanlar (turistik hariç), örneğin çalışma izni veya tapu ile</li>
+                    <li>3 yıldır TC vatandaşı ile evli olanlar</li>
+                    <li>Türk vatandaşı anne, baba, kardeş veya çocuk sahibi olanlar ek kriterleri de sağladığı taktirde başvurabilirler</li>
+                </ul>
+            </div>
+
+            <div class="content-block">
+                <h3>İstisnai Vatandaşlık</h3>
+                <ol>
+                    <li>Türkiye’ye bilimsel, teknolojik, ekonomik, sosyal, sportif, kültürel, sanatsal alanlarda hizmeti geçen ya da geçeceği düşünülen ve ilgili bakanlıklarca haklarında gerekçeli teklifte bulunulan kişiler.</li>
+                    <li>4/4/2013 tarihli ve 6458 sayılı Yabancılar ve Uluslararası Koruma Kanununun 31 inci maddesinin birinci fıkrasının (j) bendi uyarınca ikamet izni alanlar</li>
+                    <li>Turkuaz Kart sahibi yabancılar ve bunların yabancı eşi, kendisinin ve eşinin ergin olmayan veya bağımlı yabancı çocuğu bu haktan faydalanabilir.</li>
+                </ol>
+            </div>
+
+            <div class="content-block">
+                <h3>İlgili Kanun ve Yasal Mevzuat</h3>
+                <p>Türk vatandaşlığına dair düzenlemeleri içeren 5901 Sayılı Türk Vatandaşlığı Kanunu kapsamındaki tüm detaylar ve resmi maddeler güncel mevzuatlarla belirlenmiştir.</p>
+                <p>
+                    Resmi metne ulaşmak için 
+                    <a href="https://www.mevzuat.gov.tr/MevzuatMetin/1.5.5901.pdf" target="_blank" rel="noopener noreferrer">
+                        buraya tıklayabilirsiniz.
+                    </a>
+                </p>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+<!-- Contact Us -->
+<section class="contact-cta" style="
+  background: linear-gradient(135deg, #003d7a, #0072c6);
+  color: #ffffff;
+  text-align: center;
+  padding: 3.5rem 1rem;
+  border-radius: 10px;
+  max-width: 960px;
+  margin: auto;
+">
+  <h2 style="font-size: 1.8rem; font-weight: bold; color: #ffffff; margin-bottom: 1rem;">
+    Yabancı Çalışma İzni Başvurusu İçin Hemen İletişime Geçin
+  </h2>
+
+  <p style="font-size: 1.1rem; color: #d6e6f2; margin-bottom: 2rem;">
+    My World Danışmanlık olarak başvuru, yenileme ve danışmanlık hizmetlerinde yanınızdayız.
+  </p>
+
+  <div style="margin-bottom: 2rem;">
+    <a href="{% url 'contact' %}" class="btn" style="
+      background: #ffffff;
+      color: #003d7a;
+      padding: 0.75rem 1.5rem;
+      border-radius: 6px;
+      font-weight: 600;
+      margin-right: 1rem;
+      box-shadow: 0 2px 8px rgba(0,0,0,0.15);
+    ">
+      İletişim Formu
+    </a>
+    <a href="tel:+905330450580" class="btn" style="
+      background: transparent;
+      border: 2px solid #ffffff;
+      color: #ffffff;
+      padding: 0.75rem 1.5rem;
+      border-radius: 6px;
+      font-weight: 600;
+    ">
+      Hemen Ara
+    </a>
+  </div>
+
+  <div style="font-size: 0.95rem; color: #e2ecf5;">
+    <p>
+      <strong>Adres:</strong>
+      Liman Mah. Atatürk Bulvarı (İş Bankası Yanı) Heniye Hanım Apartmanı 283/4 Konyaaltı / Antalya
+    </p>
+    <p>
+      <strong>Telefon:</strong>
+      <a href="tel:+905330450580" style="color: #ffffff; font-weight: 500;">0533 045 05 80</a> |
+      <strong>İş:</strong>
+      <a href="tel:+902429990609" style="color: #ffffff; font-weight: 500;">0242 999 06 09</a> |
+      <strong>Rusça:</strong>
+      <a href="tel:+905322966373" style="color: #ffffff; font-weight: 500;">0532 296 63 73</a>
+    </p>
+  </div>
+</section>
+
+{% endblock %}

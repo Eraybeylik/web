@@ -1,0 +1,140 @@
+{% extends 'base.html' %}
+
+{% block title %}İkamet İzni Hizmetleri - My World Danışmanlık{% endblock %}
+
+{% block meta_description %}Türkiye'de ikamet izni başvuru süreçleri hakkında detaylı bilgi. Kısa vadeli, uzun vadeli ve aile birleşimi ikamet izni danışmanlığı.{% endblock %}
+
+{% block content %}
+<section class="hero" style="padding: 4rem 0;">
+    <div class="container">
+        <div class="hero-content">
+            <div style="display: flex; align-items: center; gap: 1rem; margin-bottom: 1rem;">
+                <a href="{% url 'services' %}" class="btn" style="background: transparent; color: var(--primary-blue); border: 1px solid var(--primary-blue); padding: 0.5rem 1rem; text-decoration: none;">
+                    <i class="fas fa-arrow-left"></i> Hizmetlere Dön
+                </a>
+            </div>
+            <h1><i class="fas fa-home"></i> İkamet İzni Hizmetleri</h1>
+            <p>Türkiye'de ikamet izni alma ve yenileme süreçlerinde profesyonel danışmanlık ve kapsamlı destek hizmetleri.</p>
+        </div>
+    </div>
+</section>
+
+<section class="section">
+    <div class="container">
+        <div class="content-wrapper" style="max-width: 800px; margin: 0 auto;">
+
+            <div class="content-block">
+                <h2>İkamet İzni Hakkında</h2>
+                <p>İkamet izni, yabancı uyruklu kişilerin Türkiye'de yasal olarak ikamet edebilmesi için gerekli olan resmi belgedir. Bu belge, ülkemizde kalış sürenizi, çalışma hakkınızı ve sosyal hizmetlerden yararlanma durumunuzu belirler.</p>
+                <p>İkamet izni türleri amacınıza göre değişiklik gösterir. Kısa vadeli, uzun vadeli, aile birleşimi, çalışma amaçlı gibi farklı kategoriler bulunmaktadır. Uzman ekibimiz, durumunuza en uygun ikamet izni türünü belirleyerek başvuru sürecinde size rehberlik eder.</p>
+            </div>
+
+            <div class="content-block">
+                <h2>Kısa Dönem İkamet İzni</h2>
+                <p>Kısa dönem ikamet izni, yabancının Türkiye'de kalış amacı ve nedenine göre farklı gruplarda değerlendirilir.</p>
+                <h4>Turistik Amaçlı İkamet İzni</h4>
+                <p>Türkiye'de kiracı, misafir veya turistik amaçlı kalmak isteyen yabancılar için geçerlidir.</p>
+                <h4>Tapu Sahibi Yabancılar</h4>
+                <p>Türkiye'de taşınmaz satın alarak kalacak yabancılar ve aile bireyleri bu izinden faydalanabilir.</p>
+            </div>
+
+            <div class="content-block">
+                <h2>Aile İkamet İzni</h2>
+                <p>Türk vatandaşı veya ikamet izni sahibi kişiler ile aile bağı bulunan yabancılar bu izinden faydalanabilir.</p>
+                <ul>
+                    <li>Türk vatandaşı ile evli olanlar</li>
+                    <li>18 yaşından küçük çocuklar</li>
+                    <li>Çalışma veya ikamet izni olanların eş ve çocukları</li>
+                </ul>
+            </div>
+
+            <div class="content-block">
+                <h2>İkamet İzni Merak Ettikleriniz</h2>
+                <div class="accordion">
+                    <details>
+                        <summary>İkamet izni nedir?</summary>
+                        <p>Oturma izni, yabancıların Türkiye’de belirli bir süre ikamet edebilmesini sağlayan yasal belgedir.</p>
+                    </details>
+                    <details>
+                        <summary>İkamet izni şartları nelerdir?</summary>
+                        <p>Başvuru türüne göre değişir. Örneğin kısa dönem ikamet izni için kira sözleşmesi, sağlık sigortası gibi belgeler gerekir.</p>
+                    </details>
+                    <details>
+                        <summary>Kısa dönem ikamet izninin süresi ne kadardır?</summary>
+                        <p>En fazla 2 yıl geçerlidir. Pasaport süresinden en az 60 gün kısa olmalıdır.</p>
+                    </details>
+                    <details>
+                        <summary>Aile ikametinin süresi nedir?</summary>
+                        <p>En fazla 3 yıl geçerlidir ve yine pasaport süresinden 60 gün kısa olmalıdır.</p>
+                    </details>
+                    <details>
+                        <summary>Sağlık sigortası gerekli midir?</summary>
+                        <p>Evet. Başvuru sahiplerinin sosyal güvenlik kapsamında olması veya özel sağlık sigortası yaptırması gerekir.</p>
+                    </details>
+                    <details>
+                        <summary>İkamet izni iptal edilebilir mi?</summary>
+                        <p>Evet. Şartların yerine getirilmemesi, belge sahteciliği, boşanma gibi durumlarda iptal edilebilir.</p>
+                    </details>
+                </div>
+            </div>
+
+
+<!-- Contact Us -->
+<section class="contact-cta" style="
+  background: linear-gradient(135deg, #003d7a, #0072c6);
+  color: #ffffff;
+  text-align: center;
+  padding: 3.5rem 1rem;
+  border-radius: 10px;
+  max-width: 960px;
+  margin: auto;
+">
+  <h2 style="font-size: 1.8rem; font-weight: bold; color: #ffffff; margin-bottom: 1rem;">
+    Yabancı Çalışma İzni Başvurusu İçin Hemen İletişime Geçin
+  </h2>
+
+  <p style="font-size: 1.1rem; color: #d6e6f2; margin-bottom: 2rem;">
+    My World Danışmanlık olarak başvuru, yenileme ve danışmanlık hizmetlerinde yanınızdayız.
+  </p>
+
+  <div style="margin-bottom: 2rem;">
+    <a href="{% url 'contact' %}" class="btn" style="
+      background: #ffffff;
+      color: #003d7a;
+      padding: 0.75rem 1.5rem;
+      border-radius: 6px;
+      font-weight: 600;
+      margin-right: 1rem;
+      box-shadow: 0 2px 8px rgba(0,0,0,0.15);
+    ">
+      İletişim Formu
+    </a>
+    <a href="tel:+905330450580" class="btn" style="
+      background: transparent;
+      border: 2px solid #ffffff;
+      color: #ffffff;
+      padding: 0.75rem 1.5rem;
+      border-radius: 6px;
+      font-weight: 600;
+    ">
+      Hemen Ara
+    </a>
+  </div>
+
+  <div style="font-size: 0.95rem; color: #e2ecf5;">
+    <p>
+      <strong>Adres:</strong>
+      Liman Mah. Atatürk Bulvarı (İş Bankası Yanı) Heniye Hanım Apartmanı 283/4 Konyaaltı / Antalya
+    </p>
+    <p>
+      <strong>Telefon:</strong>
+      <a href="tel:+905330450580" style="color: #ffffff; font-weight: 500;">0533 045 05 80</a> |
+      <strong>İş:</strong>
+      <a href="tel:+902429990609" style="color: #ffffff; font-weight: 500;">0242 999 06 09</a> |
+      <strong>Rusça:</strong>
+      <a href="tel:+905322966373" style="color: #ffffff; font-weight: 500;">0532 296 63 73</a>
+    </p>
+  </div>
+</section>
+
+{% endblock %}

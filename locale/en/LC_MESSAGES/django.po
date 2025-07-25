@@ -1,0 +1,2654 @@
+# English translations for Permit Consultancy
+# Copyright (C) 2025 Permit Consultancy Services
+# This file is distributed under the same license as the PACKAGE package.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2025-07-25 10:34-0500\n"
+"PO-Revision-Date: 2025-07-25 14:15+0300\n"
+"Last-Translator: Auto Translator\n"
+"Language-Team: English\n"
+"Language: en\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#: main/forms.py:15 main/models.py:17
+msgid "Ad Soyad"
+msgstr "Full Name"
+
+#: main/forms.py:20
+msgid "E-posta Adresiniz"
+msgstr "Your Email Address"
+
+#: main/forms.py:25
+msgid "Telefon Numaranız (İsteğe bağlı)"
+msgstr "Your Phone Number (Optional)"
+
+#: main/forms.py:32 main/models.py:21
+msgid "Konu"
+msgstr "Subject"
+
+#: main/forms.py:37
+msgid "Mesajınız"
+msgstr "Your Message"
+
+#: main/forms.py:52
+msgid "Ad en az 2 karakter olmalıdır."
+msgstr "Name must be at least 2 characters."
+
+#: main/models.py:10 templates/base.html:97 templates/main/home.html:33
+#: templates/main/services.html:27
+#, fuzzy
+#| msgid "Çalışma İzinleri"
+msgid "Çalışma İzni"
+msgstr "Work Permit"
+
+#: main/models.py:11 templates/base.html:98 templates/main/home.html:43
+#: templates/main/services.html:35
+#, fuzzy
+#| msgid "İkamet İzinleri"
+msgid "İkamet İzni"
+msgstr "Residence Permit"
+
+#: main/models.py:12 templates/base.html:99 templates/main/home.html:53
+#: templates/main/services.html:43
+msgid "Vatandaşlık"
+msgstr "Citizenship"
+
+#: main/models.py:13
+msgid "Sağlık Sigortası"
+msgstr "Health Insurance"
+
+#: main/models.py:14
+#, fuzzy
+#| msgid "İlk Danışmanlık"
+msgid "Genel Danışma"
+msgstr "General Consultation"
+
+#: main/models.py:18 templates/main/contact.html:86
+msgid "E-posta"
+msgstr "Email"
+
+#: main/models.py:19
+msgid "Telefon"
+msgstr "Phone"
+
+#: main/models.py:20
+#, fuzzy
+#| msgid "Hizmetler"
+msgid "Hizmet Türü"
+msgstr "Service Type"
+
+#: main/models.py:22
+msgid "Mesaj"
+msgstr "Message"
+
+#: main/models.py:23
+msgid "Oluşturulma Tarihi"
+msgstr "Creation Date"
+
+#: main/models.py:24
+msgid "Yanıtlandı mı?"
+msgstr "Responded?"
+
+#: main/models.py:28
+#, fuzzy
+#| msgid "İletişim"
+msgid "İletişim Mesajı"
+msgstr "Contact Message"
+
+#: main/models.py:29
+#, fuzzy
+#| msgid "İletişim"
+msgid "İletişim Mesajları"
+msgstr "Contact Messages"
+
+#: main/views_backup.py:59
+msgid "Lütfen formdaki hataları düzeltin ve tekrar deneyin."
+msgstr "Please correct the errors in the form and try again."
+
+#: permit_consultancy/settings.py:118
+msgid "Turkish"
+msgstr "Turkish"
+
+#: permit_consultancy/settings.py:119 templates/main/contact.html:121
+msgid "English"
+msgstr "English"
+
+#: permit_consultancy/settings.py:120
+msgid "Russian"
+msgstr "Russian"
+
+#: templates/base.html:8
+msgid ""
+"Profesyonel çalışma izni ve ikamet izni danışmanlık hizmetleri. Göçmenlik ve "
+"vize başvuruları için uzman rehberlik."
+msgstr ""
+"Professional work permit and residence permit consultancy services. Expert "
+"guidance for immigration and visa applications."
+
+#: templates/base.html:12
+msgid "İzin Danışmanlığı - Profesyonel Göçmenlik Hizmetleri"
+msgstr "Permit Consultancy - Professional Immigration Services"
+
+#: templates/base.html:41
+msgid "Anasayfa"
+msgstr "Home"
+
+#: templates/base.html:42
+msgid "Hizmetler"
+msgstr "Services"
+
+#: templates/base.html:43 templates/base.html:105 templates/main/contact.html:4
+#: templates/main/contact.html:13 templates/main/home.html:14
+#: templates/main/home.html:68
+msgid "İletişim"
+msgstr "Contact"
+
+#: templates/base.html:91
+msgid "Türkiye'deki yasal süreçlerinizde güvenilir ortağınız."
+msgstr ""
+
+#: templates/base.html:96 templates/main/home.html:23
+#: templates/main/services.html:4 templates/main/services.html:13
+msgid "Hizmetlerimiz"
+msgstr "Our Services"
+
+#: templates/base.html:106
+#, fuzzy
+#| msgid "E-posta"
+msgid "E-posta:"
+msgstr "Email"
+
+#: templates/base.html:107 templates/main/home.html:73
+#: templates/services/citizenship.html:128
+#: templates/services/residence_permit.html:131
+#: templates/services/work_permit.html:325
+#, fuzzy
+#| msgid "Telefon"
+msgid "Telefon:"
+msgstr "Phone"
+
+#: templates/base.html:108 templates/main/home.html:71
+#: templates/services/citizenship.html:124
+#: templates/services/residence_permit.html:127
+#: templates/services/work_permit.html:321
+msgid "Adres:"
+msgstr ""
+
+#: templates/base.html:114
+#, fuzzy
+#| msgid "İzin Danışmanlık Hizmetleri. Tüm hakları saklıdır."
+msgid "Tüm hakları saklıdır."
+msgstr "All rights reserved."
+
+#: templates/main/contact.html:6
+msgid ""
+"My World Danışmanlık ile iletişime geçin. Türkiye'deki yasal süreçlerinizde "
+"uzman desteği almak için arayın."
+msgstr ""
+
+#: templates/main/contact.html:14
+msgid ""
+"Hizmetlerimiz hakkında bilgi almak ve danışmanlık sürecini başlatmak için "
+"bizimle iletişime geçin."
+msgstr ""
+
+#: templates/main/contact.html:23
+msgid "Bize Ulaşın"
+msgstr "Contact Us"
+
+#: templates/main/contact.html:24
+msgid ""
+"Aşağıdaki iletişim bilgilerinden bizimle doğrudan iletişime geçebilirsiniz."
+msgstr ""
+
+#: templates/main/contact.html:32
+msgid "Türkçe Destek Hattı"
+msgstr "Turkish Support Line"
+
+#: templates/main/contact.html:36
+msgid "Türkçe danışmanlık ve bilgi için"
+msgstr "For Turkish consultation and information"
+
+#: templates/main/contact.html:43
+msgid "English Support Line"
+msgstr "English Support Line"
+
+#: templates/main/contact.html:47
+msgid "For English consultation and information"
+msgstr "For English consultation and information"
+
+#: templates/main/contact.html:54
+msgid "Линия поддержки на русском"
+msgstr "Russian Support Line"
+
+#: templates/main/contact.html:58
+msgid "Для консультации и информации на русском языке"
+msgstr "For consultation and information in Russian"
+
+#: templates/main/contact.html:72
+msgid "Ofis Adresimiz"
+msgstr "Our Office Address"
+
+#: templates/main/contact.html:90
+msgid "Genel bilgi ve sorularınız için"
+msgstr "For general information and your questions"
+
+#: templates/main/contact.html:97
+#, fuzzy
+#| msgid "Çalışma İzinleri"
+msgid "Çalışma Saatleri"
+msgstr "Working Hours"
+
+#: templates/main/contact.html:99
+#, fuzzy
+#| msgid "Pzt-Cum: 09:00 - 18:00"
+msgid "Pazartesi - Cuma: 09:00 - 18:00"
+msgstr "Monday - Friday: 09:00 - 18:00"
+
+#: templates/main/contact.html:100
+#, fuzzy
+#| msgid "Cmt: 10:00 - 16:00"
+msgid "Cumartesi: 10:00 - 16:00"
+msgstr "Saturday: 10:00 - 16:00"
+
+#: templates/main/contact.html:101
+msgid "Pazar: Kapalı"
+msgstr "Sunday: Closed"
+
+#: templates/main/contact.html:111
+msgid "Hemen Arayın!"
+msgstr "Call Now!"
+
+#: templates/main/contact.html:113
+msgid ""
+"Telefon ile direkt konuşarak en hızlı şekilde bilgi alın ve sücrecinizi "
+"başlatın."
+msgstr ""
+
+#: templates/main/contact.html:117
+msgid "Türkçe"
+msgstr "Turkish"
+
+#: templates/main/contact.html:125
+msgid "Русский"
+msgstr "Russian"
+
+#: templates/main/home.html:4
+msgid ""
+"My World Danışmanlık - Yabancılar İçin İkamet ve Çalışma İzni Danışmanlığı"
+msgstr ""
+
+#: templates/main/home.html:5
+msgid ""
+"Yabancılar için profesyonel ikamet izni ve çalışma izni danışmanlık "
+"hizmetleri. Uzman rehberlik ile Türkiye'deki yasal süreçlerinizi "
+"kolaylaştırın."
+msgstr ""
+
+#: templates/main/home.html:12
+#, fuzzy
+#| msgid "Uzman İkamet ve Vize Danışmanlığı Hizmetleri"
+msgid "Yabancılar İçin Profesyonel Danışmanlık Hizmetleri"
+msgstr "Professional Consultancy Services for Foreigners"
+
+#: templates/main/home.html:13
+msgid ""
+"Türkiye'de yaşam ve çalışma hayalinizi gerçekleştirmek için güvenilir "
+"ortağınız. İkamet izni, çalışma izni, vatandaşlık konularında uzman "
+"danışmanlık."
+msgstr ""
+
+#: templates/main/home.html:24
+msgid ""
+"Türkiye'deki yasal süreçlerinizi kolaylaştırmak için kapsamlı danışmanlık "
+"çözümleri sunuyoruz."
+msgstr ""
+
+#: templates/main/home.html:34
+msgid "Türkiye'de çalışma izni başvuru sürecinizde profesyonel destek alın."
+msgstr ""
+"Get professional support in your work permit application process in Turkey."
+
+#: templates/main/home.html:35 templates/main/home.html:45
+#: templates/main/home.html:55
+msgid "Detaylar"
+msgstr "Details"
+
+#: templates/main/home.html:44
+msgid ""
+"İkamet izni başvurusu, yenileme ve aile birleşimi süreçlerinde uzman yardımı."
+msgstr ""
+
+#: templates/main/home.html:54
+msgid "Türk vatandaşlığı başvuru sürecinizde kapsamlı rehberlik hizmetleri."
+msgstr ""
+"Comprehensive guidance services in your Turkish citizenship application "
+"process."
+
+#: templates/main/home.html:64 templates/services/citizenship.html:91
+#: templates/services/residence_permit.html:94
+#: templates/services/work_permit.html:288
+msgid "Yabancı Çalışma İzni Başvurusu İçin Hemen İletişime Geçin"
+msgstr ""
+
+#: templates/main/home.html:65 templates/services/citizenship.html:95
+#: templates/services/residence_permit.html:98
+#: templates/services/work_permit.html:292
+msgid ""
+"My World Danışmanlık olarak başvuru, yenileme ve danışmanlık hizmetlerinde "
+"yanınızdayız."
+msgstr ""
+
+#: templates/main/home.html:74 templates/services/citizenship.html:130
+#: templates/services/residence_permit.html:133
+#: templates/services/work_permit.html:327
+msgid "İş:"
+msgstr ""
+
+#: templates/main/home.html:75 templates/services/citizenship.html:132
+#: templates/services/residence_permit.html:135
+#: templates/services/work_permit.html:329
+msgid "Rusça:"
+msgstr ""
+
+#: templates/main/services.html:6
+msgid ""
+"Çalışma izni, ikamet izni ve vatandaşlık danışmanlık hizmetleri. Yabancılar "
+"için profesyonel yasal destek."
+msgstr ""
+
+#: templates/main/services.html:14
+msgid ""
+"Türkiye'deki yasal süreçlerinizde ihtiyacınız olan tüm danışmanlık "
+"hizmetlerini sunuyoruz."
+msgstr ""
+
+#: templates/main/services.html:28
+#, fuzzy
+#| msgid "Türkiye'de çalışma izni başvuru sürecinizde profesyonel destek alın."
+msgid "Türkiye'de çalışma izni süreci için profesyonel destek."
+msgstr ""
+"Get professional support in your work permit application process in Turkey."
+
+#: templates/main/services.html:36
+msgid "Türkiye'de yasal ikamet için uzman danışmanlık."
+msgstr ""
+
+#: templates/main/services.html:44
+#, fuzzy
+#| msgid "Türk vatandaşlığı başvuru sürecinizde kapsamlı rehberlik hizmetleri."
+msgid "Türk vatandaşlığı başvuru sürecinde rehberlik."
+msgstr ""
+"Comprehensive guidance services in your Turkish citizenship application "
+"process."
+
+#: templates/main/services.html:53
+#, fuzzy
+#| msgid "Uzman Danışmanlık Alın"
+msgid "Danışmanlık Almaya Hazır mısınız?"
+msgstr "Are You Ready for Consultation?"
+
+#: templates/main/services.html:55
+msgid "Uzmanlarımızla görüşün ve yasal süreçlerinizde ilk adımı atın."
+msgstr "Meet with our experts and take the first step in your legal processes."
+
+#: templates/main/services.html:57
+#, fuzzy
+#| msgid "İletişim"
+msgid "İletişime Geçin"
+msgstr "Contact"
+
+#: templates/services/citizenship.html:4
+#, fuzzy
+#| msgid "Vatandaşlık"
+msgid "Vatandaşlık Hizmetleri"
+msgstr "Citizenship"
+
+#: templates/services/citizenship.html:6
+msgid ""
+"Türk vatandaşlığı başvuru süreçleri hakkında detaylı bilgi. İstisnai durum, "
+"evlilik ve diğer yollarla vatandaşlık danışmanlığı."
+msgstr ""
+
+#: templates/services/citizenship.html:14
+#: templates/services/residence_permit.html:14
+#: templates/services/work_permit.html:19
+#, fuzzy
+#| msgid "Hizmetler"
+msgid "Hizmetlere Dön"
+msgstr "Services"
+
+#: templates/services/citizenship.html:17
+#, fuzzy
+#| msgid "Uzman İkamet ve Vize Danışmanlığı Hizmetleri"
+msgid "Türk Vatandaşlığı Hizmetleri"
+msgstr "Expert Residence and Visa Consultancy Services"
+
+#: templates/services/citizenship.html:18
+#, fuzzy
+#| msgid ""
+#| "Türk vatandaşlığı başvuru süreçlerinde kapsamlı danışmanlık hizmetleri."
+msgid ""
+"Türk vatandaşlığı alma süreçlerinde kapsamlı danışmanlık ve profesyonel "
+"destek hizmetleri."
+msgstr ""
+"Comprehensive consultancy services in Turkish citizenship application "
+"processes."
+
+#: templates/services/citizenship.html:27
+#, fuzzy
+#| msgid "Uzman İkamet ve Vize Danışmanlığı Hizmetleri"
+msgid "Türk Vatandaşlığı Hakkında"
+msgstr "Expert Residence and Visa Consultancy Services"
+
+#: templates/services/citizenship.html:28
+msgid ""
+"Türk Vatandaşlığı başvuru koşulları için yeni yapılan düzenlemeler ve "
+"yayınlanan kanunlar ile birlikte tüm güncel mevzuata uygun başvurularınız "
+"için size destek oluyoruz. Türk vatandaşı olmak için gerekli koşullar, "
+"başvuru süreci, başvurunun takibi ve sonuçlandırılması için bize "
+"ulaşabilirsiniz."
+msgstr ""
+
+#: templates/services/citizenship.html:29
+msgid ""
+"19 Eylül 2018 tarihinde Türk Vatandaşlığı kanununda yapılan değişiklik ile "
+"Türk vatandaşlığına başvuru koşullarında güncelleme yapılmıştır. Yeni "
+"uygulama ile birlikte 250 bin dolar değerinde gayrimenkul sahibi olanlar, "
+"mülklerini 3 yıl boyunca satmamak kaydı ile vatandaşlığa geçiş "
+"yapabilmekteydiler. Fakat vatandaşlık için gayrimenkul değeri 12/06/2022 "
+"tarihi itibariyle 400 bin dolar olarak güncellenmiştir."
+msgstr ""
+
+#: templates/services/citizenship.html:33
+#, fuzzy
+#| msgid "Uzman İkamet ve Vize Danışmanlığı Hizmetleri"
+msgid "Türk Vatandaşlığı’nı Kazanmanın Yolları"
+msgstr "Expert Residence and Visa Consultancy Services"
+
+#: templates/services/citizenship.html:34
+msgid ""
+"Türk Vatandaşlığı ya doğum ile birlikte kazanılır ya da sonradan başvuru ile "
+"elde edilir. Doğum ile vatandaşlıkta soy bağı ve doğum yeri esastır, doğum "
+"ile birlikte yürürlüğe girer. Sonradan ise bir çok alt başlık altında "
+"değerlendirilir."
+msgstr ""
+
+#: templates/services/citizenship.html:38
+#, fuzzy
+#| msgid "Olağan Vatandaşlık"
+msgid "Yatırım Yoluyla İstisnai Vatandaşlık"
+msgstr "Ordinary Citizenship"
+
+#: templates/services/citizenship.html:40
+msgid "En az 400.000 USD değerinde gayrimenkul satın alanlar"
+msgstr ""
+
+#: templates/services/citizenship.html:41
+msgid ""
+"En az 500.000 USD değerinde mevduatı Türk bankalarında 3 yıl boyunca tutanlar"
+msgstr ""
+
+#: templates/services/citizenship.html:42
+msgid "En az 500.000 USD değerinde sabit sermaye yatırımı yapanlar"
+msgstr ""
+
+#: templates/services/citizenship.html:43
+msgid "En az 50 kişilik istihdam oluşturanlar bu haktan faydalanabilirler"
+msgstr ""
+
+#: templates/services/citizenship.html:48
+#, fuzzy
+#| msgid "Olağan Vatandaşlık"
+msgid "Genel Yoldan Vatandaşlık"
+msgstr "Ordinary Citizenship"
+
+#: templates/services/citizenship.html:50
+msgid ""
+"Başvuru tarihinden geriye doğru Türkiye’de kesintisiz beş yıl ikamet etmiş "
+"olanlar (turistik hariç), örneğin çalışma izni veya tapu ile"
+msgstr ""
+
+#: templates/services/citizenship.html:51
+msgid "3 yıldır TC vatandaşı ile evli olanlar"
+msgstr ""
+
+#: templates/services/citizenship.html:52
+msgid ""
+"Türk vatandaşı anne, baba, kardeş veya çocuk sahibi olanlar ek kriterleri de "
+"sağladığı taktirde başvurabilirler"
+msgstr ""
+
+#: templates/services/citizenship.html:57
+#, fuzzy
+#| msgid "İstisnaî Vatandaşlık"
+msgid "İstisnai Vatandaşlık"
+msgstr "Exceptional Citizenship"
+
+#: templates/services/citizenship.html:59
+msgid ""
+"Türkiye’ye bilimsel, teknolojik, ekonomik, sosyal, sportif, kültürel, "
+"sanatsal alanlarda hizmeti geçen ya da geçeceği düşünülen ve ilgili "
+"bakanlıklarca haklarında gerekçeli teklifte bulunulan kişiler."
+msgstr ""
+
+#: templates/services/citizenship.html:60
+msgid ""
+"4/4/2013 tarihli ve 6458 sayılı Yabancılar ve Uluslararası Koruma Kanununun "
+"31 inci maddesinin birinci fıkrasının (j) bendi uyarınca ikamet izni alanlar"
+msgstr ""
+
+#: templates/services/citizenship.html:61
+msgid ""
+"Turkuaz Kart sahibi yabancılar ve bunların yabancı eşi, kendisinin ve eşinin "
+"ergin olmayan veya bağımlı yabancı çocuğu bu haktan faydalanabilir."
+msgstr ""
+
+#: templates/services/citizenship.html:66
+msgid "İlgili Kanun ve Yasal Mevzuat"
+msgstr ""
+
+#: templates/services/citizenship.html:67
+msgid ""
+"Türk vatandaşlığına dair düzenlemeleri içeren 5901 Sayılı Türk Vatandaşlığı "
+"Kanunu kapsamındaki tüm detaylar ve resmi maddeler güncel mevzuatlarla "
+"belirlenmiştir."
+msgstr ""
+
+#: templates/services/citizenship.html:69
+msgid "Resmi metne ulaşmak için"
+msgstr ""
+
+#: templates/services/citizenship.html:71
+msgid "buraya tıklayabilirsiniz."
+msgstr ""
+
+#: templates/services/citizenship.html:108
+#: templates/services/residence_permit.html:111
+#: templates/services/work_permit.html:305
+#, fuzzy
+#| msgid "İletişim"
+msgid "İletişim Formu"
+msgstr "Contact Form"
+
+#: templates/services/citizenship.html:118
+#: templates/services/residence_permit.html:121
+#: templates/services/work_permit.html:315
+#, fuzzy
+#| msgid "Hemen Arayın!"
+msgid "Hemen Ara"
+msgstr "Call Now!"
+
+#: templates/services/residence_permit.html:4
+#: templates/services/residence_permit.html:17
+#, fuzzy
+#| msgid "İkamet İzinleri"
+msgid "İkamet İzni Hizmetleri"
+msgstr "Residence Permits"
+
+#: templates/services/residence_permit.html:6
+msgid ""
+"Türkiye'de ikamet izni başvuru süreçleri hakkında detaylı bilgi. Kısa "
+"vadeli, uzun vadeli ve aile birleşimi ikamet izni danışmanlığı."
+msgstr ""
+
+#: templates/services/residence_permit.html:18
+msgid ""
+"Türkiye'de ikamet izni alma ve yenileme süreçlerinde profesyonel danışmanlık "
+"ve kapsamlı destek hizmetleri."
+msgstr ""
+
+#: templates/services/residence_permit.html:28
+#, fuzzy
+#| msgid "İkamet İzinleri"
+msgid "İkamet İzni Hakkında"
+msgstr "Residence Permit"
+
+#: templates/services/residence_permit.html:29
+msgid ""
+"İkamet izni, yabancı uyruklu kişilerin Türkiye'de yasal olarak ikamet "
+"edebilmesi için gerekli olan resmi belgedir. Bu belge, ülkemizde kalış "
+"sürenizi, çalışma hakkınızı ve sosyal hizmetlerden yararlanma durumunuzu "
+"belirler."
+msgstr ""
+
+#: templates/services/residence_permit.html:30
+msgid ""
+"İkamet izni türleri amacınıza göre değişiklik gösterir. Kısa vadeli, uzun "
+"vadeli, aile birleşimi, çalışma amaçlı gibi farklı kategoriler "
+"bulunmaktadır. Uzman ekibimiz, durumunuza en uygun ikamet izni türünü "
+"belirleyerek başvuru sürecinde size rehberlik eder."
+msgstr ""
+
+#: templates/services/residence_permit.html:34
+#, fuzzy
+#| msgid "İkamet İzinleri"
+msgid "Kısa Dönem İkamet İzni"
+msgstr "Short-Term Residence Permit"
+
+#: templates/services/residence_permit.html:35
+msgid ""
+"Kısa dönem ikamet izni, yabancının Türkiye'de kalış amacı ve nedenine göre "
+"farklı gruplarda değerlendirilir."
+msgstr ""
+
+#: templates/services/residence_permit.html:36
+#, fuzzy
+#| msgid "İkamet İzinleri"
+msgid "Turistik Amaçlı İkamet İzni"
+msgstr "Long-Term Residence Permit"
+
+#: templates/services/residence_permit.html:37
+msgid ""
+"Türkiye'de kiracı, misafir veya turistik amaçlı kalmak isteyen yabancılar "
+"için geçerlidir."
+msgstr ""
+
+#: templates/services/residence_permit.html:38
+msgid "Tapu Sahibi Yabancılar"
+msgstr ""
+
+#: templates/services/residence_permit.html:39
+msgid ""
+"Türkiye'de taşınmaz satın alarak kalacak yabancılar ve aile bireyleri bu "
+"izinden faydalanabilir."
+msgstr ""
+
+#: templates/services/residence_permit.html:43
+#, fuzzy
+#| msgid "İkamet İzinleri"
+msgid "Aile İkamet İzni"
+msgstr "Residence Permit"
+
+#: templates/services/residence_permit.html:44
+msgid ""
+"Türk vatandaşı veya ikamet izni sahibi kişiler ile aile bağı bulunan "
+"yabancılar bu izinden faydalanabilir."
+msgstr ""
+
+#: templates/services/residence_permit.html:46
+#, fuzzy
+#| msgid "Uzman İkamet ve Vize Danışmanlığı Hizmetleri"
+msgid "Türk vatandaşı ile evli olanlar"
+msgstr "Expert Residence and Visa Consultancy Services"
+
+#: templates/services/residence_permit.html:47
+msgid "18 yaşından küçük çocuklar"
+msgstr ""
+
+#: templates/services/residence_permit.html:48
+msgid "Çalışma veya ikamet izni olanların eş ve çocukları"
+msgstr ""
+
+#: templates/services/residence_permit.html:53
+#, fuzzy
+#| msgid "İkamet İzinleri"
+msgid "İkamet İzni Merak Ettikleriniz"
+msgstr "Residence Permits"
+
+#: templates/services/residence_permit.html:56
+#, fuzzy
+#| msgid "İkamet İzinleri"
+msgid "İkamet izni nedir?"
+msgstr "Residence Permits"
+
+#: templates/services/residence_permit.html:57
+msgid ""
+"Oturma izni, yabancıların Türkiye’de belirli bir süre ikamet edebilmesini "
+"sağlayan yasal belgedir."
+msgstr ""
+
+#: templates/services/residence_permit.html:60
+#, fuzzy
+#| msgid "İkamet İzinleri"
+msgid "İkamet izni şartları nelerdir?"
+msgstr "Residence Permit"
+
+#: templates/services/residence_permit.html:61
+msgid ""
+"Başvuru türüne göre değişir. Örneğin kısa dönem ikamet izni için kira "
+"sözleşmesi, sağlık sigortası gibi belgeler gerekir."
+msgstr ""
+
+#: templates/services/residence_permit.html:64
+msgid "Kısa dönem ikamet izninin süresi ne kadardır?"
+msgstr ""
+
+#: templates/services/residence_permit.html:65
+msgid ""
+"En fazla 2 yıl geçerlidir. Pasaport süresinden en az 60 gün kısa olmalıdır."
+msgstr ""
+
+#: templates/services/residence_permit.html:68
+msgid "Aile ikametinin süresi nedir?"
+msgstr ""
+
+#: templates/services/residence_permit.html:69
+msgid ""
+"En fazla 3 yıl geçerlidir ve yine pasaport süresinden 60 gün kısa olmalıdır."
+msgstr ""
+
+#: templates/services/residence_permit.html:72
+#, fuzzy
+#| msgid "Sağlık Sigortası"
+msgid "Sağlık sigortası gerekli midir?"
+msgstr "Health Insurance"
+
+#: templates/services/residence_permit.html:73
+msgid ""
+"Evet. Başvuru sahiplerinin sosyal güvenlik kapsamında olması veya özel "
+"sağlık sigortası yaptırması gerekir."
+msgstr ""
+
+#: templates/services/residence_permit.html:76
+#, fuzzy
+#| msgid "İkamet İzinleri"
+msgid "İkamet izni iptal edilebilir mi?"
+msgstr "Residence Permits"
+
+#: templates/services/residence_permit.html:77
+msgid ""
+"Evet. Şartların yerine getirilmemesi, belge sahteciliği, boşanma gibi "
+"durumlarda iptal edilebilir."
+msgstr ""
+
+#: templates/services/work_permit.html:2 templates/services/work_permit.html:9
+#: templates/services/work_permit.html:22
+#, fuzzy
+#| msgid "Çalışma İzinleri"
+msgid "Yabancı Çalışma İzni"
+msgstr "Work Permit"
+
+#: templates/services/work_permit.html:3
+msgid ""
+"Yabancı çalışma izni olmadan yabancı uyruklu bir şahsın ülkemizde yasal "
+"olarak çalışması mümkün değildir. Çalışma izni için Bakanlığa dilekçe, form "
+"ve gerekli evraklar ile başvurmak gerekir. Çalışma izni için gerekli "
+"belgeler ise alınma amacına göre farklılık gösterebilir."
+msgstr ""
+
+#: templates/services/work_permit.html:4
+msgid ""
+"Türkiye'de çalışmak isteyen yabancıların da burada çalışabilmesi için yasal "
+"olarak izin alması gerekir. Söz konusu bu izin Uluslararası İşgücü "
+"Kanunu'nun ilgili yasasında belirlenen usul ve esaslar ile belirlenmektedir. "
+"Yabancı çalışma izni olarak geçen bu izni bir yabancı danışmanlık "
+"firmasından hizmet alarak hızlı bir şekilde çıkartabilirsiniz."
+msgstr ""
+
+#: templates/services/work_permit.html:5
+msgid ""
+"Bu kapsamda My World Danışmanlık olarak sizlere hem hızlı hem de güvenilir "
+"hizmetlerimizi sunuyoruz. Çalışma izni, ikamet izni ve yabancı sağlık "
+"sigortası başvurularınız için bizimle iletişime geçebilirsiniz."
+msgstr ""
+
+#: templates/services/work_permit.html:7
+#, fuzzy
+#| msgid "Çalışma İzinleri"
+msgid "Yabancı Çalışma İzni Nedir?"
+msgstr "Work Permit"
+
+#: templates/services/work_permit.html:11
+msgid ""
+"Yabancı çalışma izni başvuruları, izin çeşitleri, gerekli belgeler, uzatma "
+"işlemleri ve 2025 harç ücretleri hakkında detaylı bilgi."
+msgstr ""
+
+#: templates/services/work_permit.html:36
+msgid ""
+"Resmi bir belge olan yabancı çalışma izni, T.C. Çalışma ve Sosyal Güvenlik "
+"Bakanlığı tarafından Türkiye'de çalışmak ve ikamet etmek isteyen yabancılara "
+"verilen yasal bir haktır. Bu izin en son olarak Şubat 2022'de yürürlüğe "
+"giren Uluslararası İşgücü Kanunu Uygulama Yönetmeliği'ne göre "
+"düzenlenmektedir."
+msgstr ""
+
+#: templates/services/work_permit.html:37
+msgid ""
+"Öncesinde ise bu izinler ile ilgili düzenlemeler 'Yabancıların Çalışma "
+"İzinleri Hakkında Kanunun Uygulama Yönetmeliği' kapsamında yapılırken, bu "
+"uygulama 2 Şubat itibariyle yürürlükten kaldırılmıştır. Yani özetle birçok "
+"çeşidi olan yabancı çalışma iznini alırken, başvurular 2 Şubat 2022'de "
+"çıkarılan kanun kapsamında değerlendirilir."
+msgstr ""
+
+#: templates/services/work_permit.html:38
+msgid ""
+"Yabancı çalışma izni, yasal bir zorunluluk olup her iki tarafı da "
+"bağlayıcıdır. Çünkü sadece çalışanın değil, o çalışana istihdam eden birey "
+"ya da kuruluşları da bağlar. Dolayısıyla bu kanuni zorunluluğun yerine "
+"getirilmesi şart olup birçok kriterle belirlenmektedir."
+msgstr ""
+
+#: templates/services/work_permit.html:39
+msgid ""
+"Bunun yanında Türkiye'de çalışacak yabancı kişi ve çalıştıran kurum "
+"kendisinden istenen tüm kriterleri sağlasa bile bu izin verilmeyebilir. "
+"Çünkü yerine getirilmesi gereken birçok özel gereklilik vardır. Yabancı "
+"çalışma izni alırken uzman bir yabancı danışmanlık firmasından yardım "
+"alınmasının önemi de işte burada yatar. Bu noktada My World Danışmanlık "
+"firmamız sizler için tüm süreci yönetir."
+msgstr ""
+
+#: templates/services/work_permit.html:41
+#, fuzzy
+#| msgid "Çalışma İzni Hizmetleri"
+msgid "Yabancı Çalışma İzni Çeşitleri"
+msgstr "Work Permit Services"
+
+#: templates/services/work_permit.html:42
+msgid ""
+"Geçerlilik süresi dolduğu zaman yenilenmesi gereken yabancı çalışma izni "
+"kapsamına göre gruplara ayrılmaktadır. Bu gruplardaki izinler ise T.C. "
+"Çalışma ve Sosyal Güvenlik Bakanlığı tarafından birçok kriter bir araya "
+"getirilerek değerlendirilir. Ardından ise firmanın ve yabancının şartları "
+"uygunsa izin verilmektedir. Yabancı çalışma izni çeşitleri şu şekildedir:"
+msgstr ""
+
+#: templates/services/work_permit.html:44
+#, fuzzy
+#| msgid "Çalışma İzinleri"
+msgid "Süreli Çalışma İzni"
+msgstr "Work Permit"
+
+#: templates/services/work_permit.html:45
+msgid ""
+"Yabancı çalışanın işin süresi, hizmet akdi ve ikamet iznine göre belirli bir "
+"meslek, iş ve işletmede çalışması için ilk başvuruda 1 yıl uzatmalarda ise 2 "
+"veya 3 yıl olarak verilen izne, süreli yabancı çalışma izni denir. Bu izin "
+"süresi dolduktan sonra ise aynı işletme veya meslekte çalışmak kaydı ile 2 "
+"yıla kadar uzatılabilmektedir. 3 yılın dolmasının ardından ise herhangi bir "
+"işyerinde 3 yıla kadar uzatılabilir."
+msgstr ""
+
+#: templates/services/work_permit.html:239
+#, fuzzy
+#| msgid "Çalışma İzni Hizmetleri"
+msgid "2025 Çalışma İzni Harç Ücretleri"
+msgstr "Work Permit Services"
+
+#: templates/services/work_permit.html:244
+msgid "İzin Türü / Süre"
+msgstr ""
+
+#: templates/services/work_permit.html:245
+#, fuzzy
+#| msgid "Hizmetler"
+msgid "Harç Türü"
+msgstr "Service Type"
+
+#: templates/services/work_permit.html:246
+msgid "Tutar (TL)"
+msgstr ""
+
+#: templates/services/work_permit.html:251
+msgid "Süreli / 1 yıl"
+msgstr ""
+
+#: templates/services/work_permit.html:252
+#, fuzzy
+#| msgid "Çalışma İzni Hizmetleri"
+msgid "Çalışma İzni / Muafiyet Belgesi"
+msgstr "Work Permit Services"
+
+#: templates/services/work_permit.html:256
+msgid "Süresiz"
+msgstr ""
+
+#: templates/services/work_permit.html:257
+#: templates/services/work_permit.html:262
+#: templates/services/work_permit.html:267
+#, fuzzy
+#| msgid "Çalışma İzni Hizmetleri"
+msgid "Çalışma İzni Belgesi"
+msgstr "Work Permit Services"
+
+#: templates/services/work_permit.html:261
+msgid "Bağımsız"
+msgstr ""
+
+#: templates/services/work_permit.html:266
+msgid "Geçici Koruma / 1 Yıl"
+msgstr ""
+
+#: templates/services/work_permit.html:273
+msgid "*Kayıp kart ücreti ayrıca uygulanmaktadır."
+msgstr ""
+
+#: venv/lib/python3.13/site-packages/django/contrib/messages/apps.py:16
+msgid "Messages"
+msgstr ""
+
+#: venv/lib/python3.13/site-packages/django/contrib/sitemaps/apps.py:8
+msgid "Site Maps"
+msgstr ""
+
+#: venv/lib/python3.13/site-packages/django/contrib/staticfiles/apps.py:9
+msgid "Static Files"
+msgstr ""
+
+#: venv/lib/python3.13/site-packages/django/contrib/syndication/apps.py:7
+msgid "Syndication"
+msgstr ""
+
+#. Translators: String used to replace omitted page numbers in elided page
+#. range generated by paginators, e.g. [1, 2, '…', 5, 6, 7, '…', 9, 10].
+#: venv/lib/python3.13/site-packages/django/core/paginator.py:30
+msgid "…"
+msgstr ""
+
+#: venv/lib/python3.13/site-packages/django/core/paginator.py:32
+msgid "That page number is not an integer"
+msgstr ""
+
+#: venv/lib/python3.13/site-packages/django/core/paginator.py:33
+msgid "That page number is less than 1"
+msgstr ""
+
+#: venv/lib/python3.13/site-packages/django/core/paginator.py:34
+msgid "That page contains no results"
+msgstr ""
+
+#: venv/lib/python3.13/site-packages/django/core/validators.py:22
+msgid "Enter a valid value."
+msgstr ""
+
+#: venv/lib/python3.13/site-packages/django/core/validators.py:70
+msgid "Enter a valid domain name."
+msgstr ""
+
+#: venv/lib/python3.13/site-packages/django/core/validators.py:153
+#: venv/lib/python3.13/site-packages/django/forms/fields.py:775
+msgid "Enter a valid URL."
+msgstr ""
+
+#: venv/lib/python3.13/site-packages/django/core/validators.py:200
+msgid "Enter a valid integer."
+msgstr ""
+
+#: venv/lib/python3.13/site-packages/django/core/validators.py:211
+msgid "Enter a valid email address."
+msgstr ""
+
+#. Translators: "letters" means latin letters: a-z and A-Z.
+#: venv/lib/python3.13/site-packages/django/core/validators.py:289
+msgid ""
+"Enter a valid “slug” consisting of letters, numbers, underscores or hyphens."
+msgstr ""
+
+#: venv/lib/python3.13/site-packages/django/core/validators.py:297
+msgid ""
+"Enter a valid “slug” consisting of Unicode letters, numbers, underscores, or "
+"hyphens."
+msgstr ""
+
+#: venv/lib/python3.13/site-packages/django/core/validators.py:309
+#: venv/lib/python3.13/site-packages/django/core/validators.py:318
+#: venv/lib/python3.13/site-packages/django/core/validators.py:332
+#: venv/lib/python3.13/site-packages/django/db/models/fields/__init__.py:2220
+#, python-format
+msgid "Enter a valid %(protocol)s address."
+msgstr ""
+
+#: venv/lib/python3.13/site-packages/django/core/validators.py:311
+msgid "IPv4"
+msgstr ""
+
+#: venv/lib/python3.13/site-packages/django/core/validators.py:320
+#: venv/lib/python3.13/site-packages/django/utils/ipv6.py:43
+msgid "IPv6"
+msgstr ""
+
+#: venv/lib/python3.13/site-packages/django/core/validators.py:334
+msgid "IPv4 or IPv6"
+msgstr ""
+
+#: venv/lib/python3.13/site-packages/django/core/validators.py:375
+msgid "Enter only digits separated by commas."
+msgstr ""
+
+#: venv/lib/python3.13/site-packages/django/core/validators.py:381
+#, python-format
+msgid "Ensure this value is %(limit_value)s (it is %(show_value)s)."
+msgstr ""
+
+#: venv/lib/python3.13/site-packages/django/core/validators.py:416
+#, python-format
+msgid "Ensure this value is less than or equal to %(limit_value)s."
+msgstr ""
+
+#: venv/lib/python3.13/site-packages/django/core/validators.py:425
+#, python-format
+msgid "Ensure this value is greater than or equal to %(limit_value)s."
+msgstr ""
+
+#: venv/lib/python3.13/site-packages/django/core/validators.py:434
+#, python-format
+msgid "Ensure this value is a multiple of step size %(limit_value)s."
+msgstr ""
+
+#: venv/lib/python3.13/site-packages/django/core/validators.py:441
+#, python-format
+msgid ""
+"Ensure this value is a multiple of step size %(limit_value)s, starting from "
+"%(offset)s, e.g. %(offset)s, %(valid_value1)s, %(valid_value2)s, and so on."
+msgstr ""
+
+#: venv/lib/python3.13/site-packages/django/core/validators.py:473
+#, python-format
+msgid ""
+"Ensure this value has at least %(limit_value)d character (it has "
+"%(show_value)d)."
+msgid_plural ""
+"Ensure this value has at least %(limit_value)d characters (it has "
+"%(show_value)d)."
+msgstr[0] ""
+msgstr[1] ""
+
+#: venv/lib/python3.13/site-packages/django/core/validators.py:491
+#, python-format
+msgid ""
+"Ensure this value has at most %(limit_value)d character (it has "
+"%(show_value)d)."
+msgid_plural ""
+"Ensure this value has at most %(limit_value)d characters (it has "
+"%(show_value)d)."
+msgstr[0] ""
+msgstr[1] ""
+
+#: venv/lib/python3.13/site-packages/django/core/validators.py:514
+#: venv/lib/python3.13/site-packages/django/forms/fields.py:366
+#: venv/lib/python3.13/site-packages/django/forms/fields.py:405
+msgid "Enter a number."
+msgstr ""
+
+#: venv/lib/python3.13/site-packages/django/core/validators.py:516
+#, python-format
+msgid "Ensure that there are no more than %(max)s digit in total."
+msgid_plural "Ensure that there are no more than %(max)s digits in total."
+msgstr[0] ""
+msgstr[1] ""
+
+#: venv/lib/python3.13/site-packages/django/core/validators.py:521
+#, python-format
+msgid "Ensure that there are no more than %(max)s decimal place."
+msgid_plural "Ensure that there are no more than %(max)s decimal places."
+msgstr[0] ""
+msgstr[1] ""
+
+#: venv/lib/python3.13/site-packages/django/core/validators.py:526
+#, python-format
+msgid ""
+"Ensure that there are no more than %(max)s digit before the decimal point."
+msgid_plural ""
+"Ensure that there are no more than %(max)s digits before the decimal point."
+msgstr[0] ""
+msgstr[1] ""
+
+#: venv/lib/python3.13/site-packages/django/core/validators.py:597
+#, python-format
+msgid ""
+"File extension “%(extension)s” is not allowed. Allowed extensions are: "
+"%(allowed_extensions)s."
+msgstr ""
+
+#: venv/lib/python3.13/site-packages/django/core/validators.py:659
+msgid "Null characters are not allowed."
+msgstr ""
+
+#: venv/lib/python3.13/site-packages/django/db/models/base.py:1600
+#: venv/lib/python3.13/site-packages/django/forms/models.py:908
+msgid "and"
+msgstr ""
+
+#: venv/lib/python3.13/site-packages/django/db/models/base.py:1602
+#, python-format
+msgid "%(model_name)s with this %(field_labels)s already exists."
+msgstr ""
+
+#: venv/lib/python3.13/site-packages/django/db/models/constraints.py:22
+#, python-format
+msgid "Constraint “%(name)s” is violated."
+msgstr ""
+
+#: venv/lib/python3.13/site-packages/django/db/models/fields/__init__.py:134
+#, python-format
+msgid "Value %(value)r is not a valid choice."
+msgstr ""
+
+#: venv/lib/python3.13/site-packages/django/db/models/fields/__init__.py:135
+msgid "This field cannot be null."
+msgstr ""
+
+#: venv/lib/python3.13/site-packages/django/db/models/fields/__init__.py:136
+msgid "This field cannot be blank."
+msgstr ""
+
+#: venv/lib/python3.13/site-packages/django/db/models/fields/__init__.py:137
+#, python-format
+msgid "%(model_name)s with this %(field_label)s already exists."
+msgstr ""
+
+#. Translators: The 'lookup_type' is one of 'date', 'year' or
+#. 'month'. Eg: "Title must be unique for pub_date year"
+#: venv/lib/python3.13/site-packages/django/db/models/fields/__init__.py:141
+#, python-format
+msgid ""
+"%(field_label)s must be unique for %(date_field_label)s %(lookup_type)s."
+msgstr ""
+
+#: venv/lib/python3.13/site-packages/django/db/models/fields/__init__.py:180
+#, python-format
+msgid "Field of type: %(field_type)s"
+msgstr ""
+
+#: venv/lib/python3.13/site-packages/django/db/models/fields/__init__.py:1162
+#, python-format
+msgid "“%(value)s” value must be either True or False."
+msgstr ""
+
+#: venv/lib/python3.13/site-packages/django/db/models/fields/__init__.py:1163
+#, python-format
+msgid "“%(value)s” value must be either True, False, or None."
+msgstr ""
+
+#: venv/lib/python3.13/site-packages/django/db/models/fields/__init__.py:1165
+msgid "Boolean (Either True or False)"
+msgstr ""
+
+#: venv/lib/python3.13/site-packages/django/db/models/fields/__init__.py:1215
+#, python-format
+msgid "String (up to %(max_length)s)"
+msgstr ""
+
+#: venv/lib/python3.13/site-packages/django/db/models/fields/__init__.py:1217
+msgid "String (unlimited)"
+msgstr ""
+
+#: venv/lib/python3.13/site-packages/django/db/models/fields/__init__.py:1326
+msgid "Comma-separated integers"
+msgstr ""
+
+#: venv/lib/python3.13/site-packages/django/db/models/fields/__init__.py:1427
+#, python-format
+msgid ""
+"“%(value)s” value has an invalid date format. It must be in YYYY-MM-DD "
+"format."
+msgstr ""
+
+#: venv/lib/python3.13/site-packages/django/db/models/fields/__init__.py:1431
+#: venv/lib/python3.13/site-packages/django/db/models/fields/__init__.py:1566
+#, python-format
+msgid ""
+"“%(value)s” value has the correct format (YYYY-MM-DD) but it is an invalid "
+"date."
+msgstr ""
+
+#: venv/lib/python3.13/site-packages/django/db/models/fields/__init__.py:1435
+msgid "Date (without time)"
+msgstr ""
+
+#: venv/lib/python3.13/site-packages/django/db/models/fields/__init__.py:1562
+#, python-format
+msgid ""
+"“%(value)s” value has an invalid format. It must be in YYYY-MM-DD "
+"HH:MM[:ss[.uuuuuu]][TZ] format."
+msgstr ""
+
+#: venv/lib/python3.13/site-packages/django/db/models/fields/__init__.py:1570
+#, python-format
+msgid ""
+"“%(value)s” value has the correct format (YYYY-MM-DD HH:MM[:ss[.uuuuuu]]"
+"[TZ]) but it is an invalid date/time."
+msgstr ""
+
+#: venv/lib/python3.13/site-packages/django/db/models/fields/__init__.py:1575
+msgid "Date (with time)"
+msgstr ""
+
+#: venv/lib/python3.13/site-packages/django/db/models/fields/__init__.py:1702
+#, python-format
+msgid "“%(value)s” value must be a decimal number."
+msgstr ""
+
+#: venv/lib/python3.13/site-packages/django/db/models/fields/__init__.py:1704
+msgid "Decimal number"
+msgstr ""
+
+#: venv/lib/python3.13/site-packages/django/db/models/fields/__init__.py:1864
+#, python-format
+msgid ""
+"“%(value)s” value has an invalid format. It must be in [DD] "
+"[[HH:]MM:]ss[.uuuuuu] format."
+msgstr ""
+
+#: venv/lib/python3.13/site-packages/django/db/models/fields/__init__.py:1868
+msgid "Duration"
+msgstr ""
+
+#: venv/lib/python3.13/site-packages/django/db/models/fields/__init__.py:1920
+msgid "Email address"
+msgstr ""
+
+#: venv/lib/python3.13/site-packages/django/db/models/fields/__init__.py:1945
+msgid "File path"
+msgstr ""
+
+#: venv/lib/python3.13/site-packages/django/db/models/fields/__init__.py:2023
+#, python-format
+msgid "“%(value)s” value must be a float."
+msgstr ""
+
+#: venv/lib/python3.13/site-packages/django/db/models/fields/__init__.py:2025
+msgid "Floating point number"
+msgstr ""
+
+#: venv/lib/python3.13/site-packages/django/db/models/fields/__init__.py:2065
+#, python-format
+msgid "“%(value)s” value must be an integer."
+msgstr ""
+
+#: venv/lib/python3.13/site-packages/django/db/models/fields/__init__.py:2067
+msgid "Integer"
+msgstr ""
+
+#: venv/lib/python3.13/site-packages/django/db/models/fields/__init__.py:2163
+msgid "Big (8 byte) integer"
+msgstr ""
+
+#: venv/lib/python3.13/site-packages/django/db/models/fields/__init__.py:2180
+msgid "Small integer"
+msgstr ""
+
+#: venv/lib/python3.13/site-packages/django/db/models/fields/__init__.py:2188
+msgid "IPv4 address"
+msgstr ""
+
+#: venv/lib/python3.13/site-packages/django/db/models/fields/__init__.py:2219
+msgid "IP address"
+msgstr ""
+
+#: venv/lib/python3.13/site-packages/django/db/models/fields/__init__.py:2310
+#: venv/lib/python3.13/site-packages/django/db/models/fields/__init__.py:2311
+#, python-format
+msgid "“%(value)s” value must be either None, True or False."
+msgstr ""
+
+#: venv/lib/python3.13/site-packages/django/db/models/fields/__init__.py:2313
+msgid "Boolean (Either True, False or None)"
+msgstr ""
+
+#: venv/lib/python3.13/site-packages/django/db/models/fields/__init__.py:2364
+msgid "Positive big integer"
+msgstr ""
+
+#: venv/lib/python3.13/site-packages/django/db/models/fields/__init__.py:2379
+msgid "Positive integer"
+msgstr ""
+
+#: venv/lib/python3.13/site-packages/django/db/models/fields/__init__.py:2394
+msgid "Positive small integer"
+msgstr ""
+
+#: venv/lib/python3.13/site-packages/django/db/models/fields/__init__.py:2410
+#, python-format
+msgid "Slug (up to %(max_length)s)"
+msgstr ""
+
+#: venv/lib/python3.13/site-packages/django/db/models/fields/__init__.py:2446
+msgid "Text"
+msgstr ""
+
+#: venv/lib/python3.13/site-packages/django/db/models/fields/__init__.py:2526
+#, python-format
+msgid ""
+"“%(value)s” value has an invalid format. It must be in HH:MM[:ss[.uuuuuu]] "
+"format."
+msgstr ""
+
+#: venv/lib/python3.13/site-packages/django/db/models/fields/__init__.py:2530
+#, python-format
+msgid ""
+"“%(value)s” value has the correct format (HH:MM[:ss[.uuuuuu]]) but it is an "
+"invalid time."
+msgstr ""
+
+#: venv/lib/python3.13/site-packages/django/db/models/fields/__init__.py:2534
+msgid "Time"
+msgstr ""
+
+#: venv/lib/python3.13/site-packages/django/db/models/fields/__init__.py:2642
+msgid "URL"
+msgstr ""
+
+#: venv/lib/python3.13/site-packages/django/db/models/fields/__init__.py:2666
+msgid "Raw binary data"
+msgstr ""
+
+#: venv/lib/python3.13/site-packages/django/db/models/fields/__init__.py:2731
+#, python-format
+msgid "“%(value)s” is not a valid UUID."
+msgstr ""
+
+#: venv/lib/python3.13/site-packages/django/db/models/fields/__init__.py:2733
+msgid "Universally unique identifier"
+msgstr ""
+
+#: venv/lib/python3.13/site-packages/django/db/models/fields/files.py:244
+msgid "File"
+msgstr ""
+
+#: venv/lib/python3.13/site-packages/django/db/models/fields/files.py:420
+msgid "Image"
+msgstr ""
+
+#: venv/lib/python3.13/site-packages/django/db/models/fields/json.py:24
+msgid "A JSON object"
+msgstr ""
+
+#: venv/lib/python3.13/site-packages/django/db/models/fields/json.py:26
+msgid "Value must be valid JSON."
+msgstr ""
+
+#: venv/lib/python3.13/site-packages/django/db/models/fields/related.py:978
+#, python-format
+msgid "%(model)s instance with %(field)s %(value)r is not a valid choice."
+msgstr ""
+
+#: venv/lib/python3.13/site-packages/django/db/models/fields/related.py:981
+msgid "Foreign Key (type determined by related field)"
+msgstr ""
+
+#: venv/lib/python3.13/site-packages/django/db/models/fields/related.py:1275
+msgid "One-to-one relationship"
+msgstr ""
+
+#: venv/lib/python3.13/site-packages/django/db/models/fields/related.py:1332
+#, python-format
+msgid "%(from)s-%(to)s relationship"
+msgstr ""
+
+#: venv/lib/python3.13/site-packages/django/db/models/fields/related.py:1334
+#, python-format
+msgid "%(from)s-%(to)s relationships"
+msgstr ""
+
+#: venv/lib/python3.13/site-packages/django/db/models/fields/related.py:1382
+msgid "Many-to-many relationship"
+msgstr ""
+
+#. Translators: If found as last label character, these punctuation
+#. characters will prevent the default label_suffix to be appended to the label
+#: venv/lib/python3.13/site-packages/django/forms/boundfield.py:185
+msgid ":?.!"
+msgstr ""
+
+#: venv/lib/python3.13/site-packages/django/forms/fields.py:95
+msgid "This field is required."
+msgstr ""
+
+#: venv/lib/python3.13/site-packages/django/forms/fields.py:315
+msgid "Enter a whole number."
+msgstr ""
+
+#: venv/lib/python3.13/site-packages/django/forms/fields.py:486
+#: venv/lib/python3.13/site-packages/django/forms/fields.py:1267
+msgid "Enter a valid date."
+msgstr ""
+
+#: venv/lib/python3.13/site-packages/django/forms/fields.py:509
+#: venv/lib/python3.13/site-packages/django/forms/fields.py:1268
+msgid "Enter a valid time."
+msgstr ""
+
+#: venv/lib/python3.13/site-packages/django/forms/fields.py:536
+msgid "Enter a valid date/time."
+msgstr ""
+
+#: venv/lib/python3.13/site-packages/django/forms/fields.py:570
+msgid "Enter a valid duration."
+msgstr ""
+
+#: venv/lib/python3.13/site-packages/django/forms/fields.py:571
+#, python-brace-format
+msgid "The number of days must be between {min_days} and {max_days}."
+msgstr ""
+
+#: venv/lib/python3.13/site-packages/django/forms/fields.py:640
+msgid "No file was submitted. Check the encoding type on the form."
+msgstr ""
+
+#: venv/lib/python3.13/site-packages/django/forms/fields.py:641
+msgid "No file was submitted."
+msgstr ""
+
+#: venv/lib/python3.13/site-packages/django/forms/fields.py:642
+msgid "The submitted file is empty."
+msgstr ""
+
+#: venv/lib/python3.13/site-packages/django/forms/fields.py:644
+#, python-format
+msgid "Ensure this filename has at most %(max)d character (it has %(length)d)."
+msgid_plural ""
+"Ensure this filename has at most %(max)d characters (it has %(length)d)."
+msgstr[0] ""
+msgstr[1] ""
+
+#: venv/lib/python3.13/site-packages/django/forms/fields.py:649
+msgid "Please either submit a file or check the clear checkbox, not both."
+msgstr ""
+
+#: venv/lib/python3.13/site-packages/django/forms/fields.py:717
+msgid ""
+"Upload a valid image. The file you uploaded was either not an image or a "
+"corrupted image."
+msgstr ""
+
+#: venv/lib/python3.13/site-packages/django/forms/fields.py:889
+#: venv/lib/python3.13/site-packages/django/forms/fields.py:975
+#: venv/lib/python3.13/site-packages/django/forms/models.py:1592
+#, python-format
+msgid "Select a valid choice. %(value)s is not one of the available choices."
+msgstr ""
+
+#: venv/lib/python3.13/site-packages/django/forms/fields.py:977
+#: venv/lib/python3.13/site-packages/django/forms/fields.py:1096
+#: venv/lib/python3.13/site-packages/django/forms/models.py:1590
+msgid "Enter a list of values."
+msgstr ""
+
+#: venv/lib/python3.13/site-packages/django/forms/fields.py:1097
+msgid "Enter a complete value."
+msgstr ""
+
+#: venv/lib/python3.13/site-packages/django/forms/fields.py:1339
+msgid "Enter a valid UUID."
+msgstr ""
+
+#: venv/lib/python3.13/site-packages/django/forms/fields.py:1369
+msgid "Enter a valid JSON."
+msgstr ""
+
+#. Translators: This is the default suffix added to form field labels
+#: venv/lib/python3.13/site-packages/django/forms/forms.py:97
+msgid ":"
+msgstr ""
+
+#: venv/lib/python3.13/site-packages/django/forms/forms.py:239
+#, python-format
+msgid "(Hidden field %(name)s) %(error)s"
+msgstr ""
+
+#: venv/lib/python3.13/site-packages/django/forms/formsets.py:61
+#, python-format
+msgid ""
+"ManagementForm data is missing or has been tampered with. Missing fields: "
+"%(field_names)s. You may need to file a bug report if the issue persists."
+msgstr ""
+
+#: venv/lib/python3.13/site-packages/django/forms/formsets.py:65
+#, python-format
+msgid "Please submit at most %(num)d form."
+msgid_plural "Please submit at most %(num)d forms."
+msgstr[0] ""
+msgstr[1] ""
+
+#: venv/lib/python3.13/site-packages/django/forms/formsets.py:70
+#, python-format
+msgid "Please submit at least %(num)d form."
+msgid_plural "Please submit at least %(num)d forms."
+msgstr[0] ""
+msgstr[1] ""
+
+#: venv/lib/python3.13/site-packages/django/forms/formsets.py:484
+#: venv/lib/python3.13/site-packages/django/forms/formsets.py:491
+msgid "Order"
+msgstr ""
+
+#: venv/lib/python3.13/site-packages/django/forms/formsets.py:499
+msgid "Delete"
+msgstr ""
+
+#: venv/lib/python3.13/site-packages/django/forms/models.py:901
+#, python-format
+msgid "Please correct the duplicate data for %(field)s."
+msgstr ""
+
+#: venv/lib/python3.13/site-packages/django/forms/models.py:906
+#, python-format
+msgid "Please correct the duplicate data for %(field)s, which must be unique."
+msgstr ""
+
+#: venv/lib/python3.13/site-packages/django/forms/models.py:913
+#, python-format
+msgid ""
+"Please correct the duplicate data for %(field_name)s which must be unique "
+"for the %(lookup)s in %(date_field)s."
+msgstr ""
+
+#: venv/lib/python3.13/site-packages/django/forms/models.py:922
+msgid "Please correct the duplicate values below."
+msgstr ""
+
+#: venv/lib/python3.13/site-packages/django/forms/models.py:1359
+msgid "The inline value did not match the parent instance."
+msgstr ""
+
+#: venv/lib/python3.13/site-packages/django/forms/models.py:1450
+msgid "Select a valid choice. That choice is not one of the available choices."
+msgstr ""
+
+#: venv/lib/python3.13/site-packages/django/forms/models.py:1594
+#, python-format
+msgid "“%(pk)s” is not a valid value."
+msgstr ""
+
+#: venv/lib/python3.13/site-packages/django/forms/utils.py:229
+#, python-format
+msgid ""
+"%(datetime)s couldn’t be interpreted in time zone %(current_timezone)s; it "
+"may be ambiguous or it may not exist."
+msgstr ""
+
+#: venv/lib/python3.13/site-packages/django/forms/widgets.py:527
+msgid "Clear"
+msgstr ""
+
+#: venv/lib/python3.13/site-packages/django/forms/widgets.py:528
+msgid "Currently"
+msgstr ""
+
+#: venv/lib/python3.13/site-packages/django/forms/widgets.py:529
+msgid "Change"
+msgstr ""
+
+#: venv/lib/python3.13/site-packages/django/forms/widgets.py:866
+msgid "Unknown"
+msgstr ""
+
+#: venv/lib/python3.13/site-packages/django/forms/widgets.py:867
+msgid "Yes"
+msgstr ""
+
+#: venv/lib/python3.13/site-packages/django/forms/widgets.py:868
+msgid "No"
+msgstr ""
+
+#. Translators: Please do not add spaces around commas.
+#: venv/lib/python3.13/site-packages/django/template/defaultfilters.py:873
+msgid "yes,no,maybe"
+msgstr ""
+
+#: venv/lib/python3.13/site-packages/django/template/defaultfilters.py:903
+#: venv/lib/python3.13/site-packages/django/template/defaultfilters.py:920
+#, python-format
+msgid "%(size)d byte"
+msgid_plural "%(size)d bytes"
+msgstr[0] ""
+msgstr[1] ""
+
+#: venv/lib/python3.13/site-packages/django/template/defaultfilters.py:922
+#, python-format
+msgid "%s KB"
+msgstr ""
+
+#: venv/lib/python3.13/site-packages/django/template/defaultfilters.py:924
+#, python-format
+msgid "%s MB"
+msgstr ""
+
+#: venv/lib/python3.13/site-packages/django/template/defaultfilters.py:926
+#, python-format
+msgid "%s GB"
+msgstr ""
+
+#: venv/lib/python3.13/site-packages/django/template/defaultfilters.py:928
+#, python-format
+msgid "%s TB"
+msgstr ""
+
+#: venv/lib/python3.13/site-packages/django/template/defaultfilters.py:930
+#, python-format
+msgid "%s PB"
+msgstr ""
+
+#: venv/lib/python3.13/site-packages/django/utils/dateformat.py:74
+msgid "p.m."
+msgstr ""
+
+#: venv/lib/python3.13/site-packages/django/utils/dateformat.py:75
+msgid "a.m."
+msgstr ""
+
+#: venv/lib/python3.13/site-packages/django/utils/dateformat.py:80
+msgid "PM"
+msgstr ""
+
+#: venv/lib/python3.13/site-packages/django/utils/dateformat.py:81
+msgid "AM"
+msgstr ""
+
+#: venv/lib/python3.13/site-packages/django/utils/dateformat.py:153
+msgid "midnight"
+msgstr ""
+
+#: venv/lib/python3.13/site-packages/django/utils/dateformat.py:155
+msgid "noon"
+msgstr ""
+
+#: venv/lib/python3.13/site-packages/django/utils/dates.py:7
+msgid "Monday"
+msgstr ""
+
+#: venv/lib/python3.13/site-packages/django/utils/dates.py:8
+msgid "Tuesday"
+msgstr ""
+
+#: venv/lib/python3.13/site-packages/django/utils/dates.py:9
+msgid "Wednesday"
+msgstr ""
+
+#: venv/lib/python3.13/site-packages/django/utils/dates.py:10
+msgid "Thursday"
+msgstr ""
+
+#: venv/lib/python3.13/site-packages/django/utils/dates.py:11
+msgid "Friday"
+msgstr ""
+
+#: venv/lib/python3.13/site-packages/django/utils/dates.py:12
+msgid "Saturday"
+msgstr ""
+
+#: venv/lib/python3.13/site-packages/django/utils/dates.py:13
+msgid "Sunday"
+msgstr ""
+
+#: venv/lib/python3.13/site-packages/django/utils/dates.py:16
+msgid "Mon"
+msgstr ""
+
+#: venv/lib/python3.13/site-packages/django/utils/dates.py:17
+msgid "Tue"
+msgstr ""
+
+#: venv/lib/python3.13/site-packages/django/utils/dates.py:18
+msgid "Wed"
+msgstr ""
+
+#: venv/lib/python3.13/site-packages/django/utils/dates.py:19
+msgid "Thu"
+msgstr ""
+
+#: venv/lib/python3.13/site-packages/django/utils/dates.py:20
+msgid "Fri"
+msgstr ""
+
+#: venv/lib/python3.13/site-packages/django/utils/dates.py:21
+msgid "Sat"
+msgstr ""
+
+#: venv/lib/python3.13/site-packages/django/utils/dates.py:22
+msgid "Sun"
+msgstr ""
+
+#: venv/lib/python3.13/site-packages/django/utils/dates.py:25
+msgid "January"
+msgstr ""
+
+#: venv/lib/python3.13/site-packages/django/utils/dates.py:26
+msgid "February"
+msgstr ""
+
+#: venv/lib/python3.13/site-packages/django/utils/dates.py:27
+msgid "March"
+msgstr ""
+
+#: venv/lib/python3.13/site-packages/django/utils/dates.py:28
+msgid "April"
+msgstr ""
+
+#: venv/lib/python3.13/site-packages/django/utils/dates.py:29
+msgid "May"
+msgstr ""
+
+#: venv/lib/python3.13/site-packages/django/utils/dates.py:30
+msgid "June"
+msgstr ""
+
+#: venv/lib/python3.13/site-packages/django/utils/dates.py:31
+msgid "July"
+msgstr ""
+
+#: venv/lib/python3.13/site-packages/django/utils/dates.py:32
+msgid "August"
+msgstr ""
+
+#: venv/lib/python3.13/site-packages/django/utils/dates.py:33
+msgid "September"
+msgstr ""
+
+#: venv/lib/python3.13/site-packages/django/utils/dates.py:34
+msgid "October"
+msgstr ""
+
+#: venv/lib/python3.13/site-packages/django/utils/dates.py:35
+msgid "November"
+msgstr ""
+
+#: venv/lib/python3.13/site-packages/django/utils/dates.py:36
+msgid "December"
+msgstr ""
+
+#: venv/lib/python3.13/site-packages/django/utils/dates.py:39
+msgid "jan"
+msgstr ""
+
+#: venv/lib/python3.13/site-packages/django/utils/dates.py:40
+msgid "feb"
+msgstr ""
+
+#: venv/lib/python3.13/site-packages/django/utils/dates.py:41
+msgid "mar"
+msgstr ""
+
+#: venv/lib/python3.13/site-packages/django/utils/dates.py:42
+msgid "apr"
+msgstr ""
+
+#: venv/lib/python3.13/site-packages/django/utils/dates.py:43
+msgid "may"
+msgstr ""
+
+#: venv/lib/python3.13/site-packages/django/utils/dates.py:44
+msgid "jun"
+msgstr ""
+
+#: venv/lib/python3.13/site-packages/django/utils/dates.py:45
+msgid "jul"
+msgstr ""
+
+#: venv/lib/python3.13/site-packages/django/utils/dates.py:46
+msgid "aug"
+msgstr ""
+
+#: venv/lib/python3.13/site-packages/django/utils/dates.py:47
+msgid "sep"
+msgstr ""
+
+#: venv/lib/python3.13/site-packages/django/utils/dates.py:48
+msgid "oct"
+msgstr ""
+
+#: venv/lib/python3.13/site-packages/django/utils/dates.py:49
+msgid "nov"
+msgstr ""
+
+#: venv/lib/python3.13/site-packages/django/utils/dates.py:50
+msgid "dec"
+msgstr ""
+
+#: venv/lib/python3.13/site-packages/django/utils/dates.py:53
+msgctxt "abbrev. month"
+msgid "Jan."
+msgstr ""
+
+#: venv/lib/python3.13/site-packages/django/utils/dates.py:54
+msgctxt "abbrev. month"
+msgid "Feb."
+msgstr ""
+
+#: venv/lib/python3.13/site-packages/django/utils/dates.py:55
+msgctxt "abbrev. month"
+msgid "March"
+msgstr ""
+
+#: venv/lib/python3.13/site-packages/django/utils/dates.py:56
+msgctxt "abbrev. month"
+msgid "April"
+msgstr ""
+
+#: venv/lib/python3.13/site-packages/django/utils/dates.py:57
+msgctxt "abbrev. month"
+msgid "May"
+msgstr ""
+
+#: venv/lib/python3.13/site-packages/django/utils/dates.py:58
+msgctxt "abbrev. month"
+msgid "June"
+msgstr ""
+
+#: venv/lib/python3.13/site-packages/django/utils/dates.py:59
+msgctxt "abbrev. month"
+msgid "July"
+msgstr ""
+
+#: venv/lib/python3.13/site-packages/django/utils/dates.py:60
+msgctxt "abbrev. month"
+msgid "Aug."
+msgstr ""
+
+#: venv/lib/python3.13/site-packages/django/utils/dates.py:61
+msgctxt "abbrev. month"
+msgid "Sept."
+msgstr ""
+
+#: venv/lib/python3.13/site-packages/django/utils/dates.py:62
+msgctxt "abbrev. month"
+msgid "Oct."
+msgstr ""
+
+#: venv/lib/python3.13/site-packages/django/utils/dates.py:63
+msgctxt "abbrev. month"
+msgid "Nov."
+msgstr ""
+
+#: venv/lib/python3.13/site-packages/django/utils/dates.py:64
+msgctxt "abbrev. month"
+msgid "Dec."
+msgstr ""
+
+#: venv/lib/python3.13/site-packages/django/utils/dates.py:67
+msgctxt "alt. month"
+msgid "January"
+msgstr ""
+
+#: venv/lib/python3.13/site-packages/django/utils/dates.py:68
+msgctxt "alt. month"
+msgid "February"
+msgstr ""
+
+#: venv/lib/python3.13/site-packages/django/utils/dates.py:69
+msgctxt "alt. month"
+msgid "March"
+msgstr ""
+
+#: venv/lib/python3.13/site-packages/django/utils/dates.py:70
+msgctxt "alt. month"
+msgid "April"
+msgstr ""
+
+#: venv/lib/python3.13/site-packages/django/utils/dates.py:71
+msgctxt "alt. month"
+msgid "May"
+msgstr ""
+
+#: venv/lib/python3.13/site-packages/django/utils/dates.py:72
+msgctxt "alt. month"
+msgid "June"
+msgstr ""
+
+#: venv/lib/python3.13/site-packages/django/utils/dates.py:73
+msgctxt "alt. month"
+msgid "July"
+msgstr ""
+
+#: venv/lib/python3.13/site-packages/django/utils/dates.py:74
+msgctxt "alt. month"
+msgid "August"
+msgstr ""
+
+#: venv/lib/python3.13/site-packages/django/utils/dates.py:75
+msgctxt "alt. month"
+msgid "September"
+msgstr ""
+
+#: venv/lib/python3.13/site-packages/django/utils/dates.py:76
+msgctxt "alt. month"
+msgid "October"
+msgstr ""
+
+#: venv/lib/python3.13/site-packages/django/utils/dates.py:77
+msgctxt "alt. month"
+msgid "November"
+msgstr ""
+
+#: venv/lib/python3.13/site-packages/django/utils/dates.py:78
+msgctxt "alt. month"
+msgid "December"
+msgstr ""
+
+#: venv/lib/python3.13/site-packages/django/utils/ipv6.py:20
+msgid "This is not a valid IPv6 address."
+msgstr ""
+
+#: venv/lib/python3.13/site-packages/django/utils/text.py:76
+#, python-format
+msgctxt "String to return when truncating text"
+msgid "%(truncated_text)s…"
+msgstr ""
+
+#: venv/lib/python3.13/site-packages/django/utils/text.py:287
+msgid "or"
+msgstr ""
+
+#. Translators: This string is used as a separator between list elements
+#: venv/lib/python3.13/site-packages/django/utils/text.py:306
+#: venv/lib/python3.13/site-packages/django/utils/timesince.py:135
+msgid ", "
+msgstr ""
+
+#: venv/lib/python3.13/site-packages/django/utils/timesince.py:8
+#, python-format
+msgid "%(num)d year"
+msgid_plural "%(num)d years"
+msgstr[0] ""
+msgstr[1] ""
+
+#: venv/lib/python3.13/site-packages/django/utils/timesince.py:9
+#, python-format
+msgid "%(num)d month"
+msgid_plural "%(num)d months"
+msgstr[0] ""
+msgstr[1] ""
+
+#: venv/lib/python3.13/site-packages/django/utils/timesince.py:10
+#, python-format
+msgid "%(num)d week"
+msgid_plural "%(num)d weeks"
+msgstr[0] ""
+msgstr[1] ""
+
+#: venv/lib/python3.13/site-packages/django/utils/timesince.py:11
+#, python-format
+msgid "%(num)d day"
+msgid_plural "%(num)d days"
+msgstr[0] ""
+msgstr[1] ""
+
+#: venv/lib/python3.13/site-packages/django/utils/timesince.py:12
+#, python-format
+msgid "%(num)d hour"
+msgid_plural "%(num)d hours"
+msgstr[0] ""
+msgstr[1] ""
+
+#: venv/lib/python3.13/site-packages/django/utils/timesince.py:13
+#, python-format
+msgid "%(num)d minute"
+msgid_plural "%(num)d minutes"
+msgstr[0] ""
+msgstr[1] ""
+
+#: venv/lib/python3.13/site-packages/django/views/csrf.py:29
+msgid "Forbidden"
+msgstr ""
+
+#: venv/lib/python3.13/site-packages/django/views/csrf.py:30
+msgid "CSRF verification failed. Request aborted."
+msgstr ""
+
+#: venv/lib/python3.13/site-packages/django/views/csrf.py:34
+msgid ""
+"You are seeing this message because this HTTPS site requires a “Referer "
+"header” to be sent by your web browser, but none was sent. This header is "
+"required for security reasons, to ensure that your browser is not being "
+"hijacked by third parties."
+msgstr ""
+
+#: venv/lib/python3.13/site-packages/django/views/csrf.py:40
+msgid ""
+"If you have configured your browser to disable “Referer” headers, please re-"
+"enable them, at least for this site, or for HTTPS connections, or for “same-"
+"origin” requests."
+msgstr ""
+
+#: venv/lib/python3.13/site-packages/django/views/csrf.py:45
+msgid ""
+"If you are using the <meta name=\"referrer\" content=\"no-referrer\"> tag or "
+"including the “Referrer-Policy: no-referrer” header, please remove them. The "
+"CSRF protection requires the “Referer” header to do strict referer checking. "
+"If you’re concerned about privacy, use alternatives like <a "
+"rel=\"noreferrer\" …> for links to third-party sites."
+msgstr ""
+
+#: venv/lib/python3.13/site-packages/django/views/csrf.py:54
+msgid ""
+"You are seeing this message because this site requires a CSRF cookie when "
+"submitting forms. This cookie is required for security reasons, to ensure "
+"that your browser is not being hijacked by third parties."
+msgstr ""
+
+#: venv/lib/python3.13/site-packages/django/views/csrf.py:60
+msgid ""
+"If you have configured your browser to disable cookies, please re-enable "
+"them, at least for this site, or for “same-origin” requests."
+msgstr ""
+
+#: venv/lib/python3.13/site-packages/django/views/csrf.py:66
+msgid "More information is available with DEBUG=True."
+msgstr ""
+
+#: venv/lib/python3.13/site-packages/django/views/generic/dates.py:44
+msgid "No year specified"
+msgstr ""
+
+#: venv/lib/python3.13/site-packages/django/views/generic/dates.py:64
+#: venv/lib/python3.13/site-packages/django/views/generic/dates.py:115
+#: venv/lib/python3.13/site-packages/django/views/generic/dates.py:214
+msgid "Date out of range"
+msgstr ""
+
+#: venv/lib/python3.13/site-packages/django/views/generic/dates.py:94
+msgid "No month specified"
+msgstr ""
+
+#: venv/lib/python3.13/site-packages/django/views/generic/dates.py:147
+msgid "No day specified"
+msgstr ""
+
+#: venv/lib/python3.13/site-packages/django/views/generic/dates.py:194
+msgid "No week specified"
+msgstr ""
+
+#: venv/lib/python3.13/site-packages/django/views/generic/dates.py:353
+#: venv/lib/python3.13/site-packages/django/views/generic/dates.py:384
+#, python-format
+msgid "No %(verbose_name_plural)s available"
+msgstr ""
+
+#: venv/lib/python3.13/site-packages/django/views/generic/dates.py:680
+#, python-format
+msgid ""
+"Future %(verbose_name_plural)s not available because "
+"%(class_name)s.allow_future is False."
+msgstr ""
+
+#: venv/lib/python3.13/site-packages/django/views/generic/dates.py:720
+#, python-format
+msgid "Invalid date string “%(datestr)s” given format “%(format)s”"
+msgstr ""
+
+#: venv/lib/python3.13/site-packages/django/views/generic/detail.py:56
+#, python-format
+msgid "No %(verbose_name)s found matching the query"
+msgstr ""
+
+#: venv/lib/python3.13/site-packages/django/views/generic/list.py:70
+msgid "Page is not “last”, nor can it be converted to an int."
+msgstr ""
+
+#: venv/lib/python3.13/site-packages/django/views/generic/list.py:77
+#, python-format
+msgid "Invalid page (%(page_number)s): %(message)s"
+msgstr ""
+
+#: venv/lib/python3.13/site-packages/django/views/generic/list.py:173
+#, python-format
+msgid "Empty list and “%(class_name)s.allow_empty” is False."
+msgstr ""
+
+#: venv/lib/python3.13/site-packages/django/views/static.py:49
+msgid "Directory indexes are not allowed here."
+msgstr ""
+
+#: venv/lib/python3.13/site-packages/django/views/static.py:51
+#, python-format
+msgid "“%(path)s” does not exist"
+msgstr ""
+
+#: venv/lib/python3.13/site-packages/django/views/static.py:68
+#: venv/lib/python3.13/site-packages/django/views/templates/directory_index.html:8
+#: venv/lib/python3.13/site-packages/django/views/templates/directory_index.html:11
+#, python-format
+msgid "Index of %(directory)s"
+msgstr ""
+
+#: venv/lib/python3.13/site-packages/django/views/templates/default_urlconf.html:7
+#: venv/lib/python3.13/site-packages/django/views/templates/default_urlconf.html:204
+msgid "The install worked successfully! Congratulations!"
+msgstr ""
+
+#: venv/lib/python3.13/site-packages/django/views/templates/default_urlconf.html:206
+#, python-format
+msgid ""
+"View <a href=\"https://docs.djangoproject.com/en/%(version)s/releases/\" "
+"target=\"_blank\" rel=\"noopener\">release notes</a> for Django %(version)s"
+msgstr ""
+
+#: venv/lib/python3.13/site-packages/django/views/templates/default_urlconf.html:208
+#, python-format
+msgid ""
+"You are seeing this page because <a href=\"https://docs.djangoproject.com/en/"
+"%(version)s/ref/settings/#debug\" target=\"_blank\" "
+"rel=\"noopener\">DEBUG=True</a> is in your settings file and you have not "
+"configured any URLs."
+msgstr ""
+
+#: venv/lib/python3.13/site-packages/django/views/templates/default_urlconf.html:217
+msgid "Django Documentation"
+msgstr ""
+
+#: venv/lib/python3.13/site-packages/django/views/templates/default_urlconf.html:218
+msgid "Topics, references, &amp; how-to’s"
+msgstr ""
+
+#: venv/lib/python3.13/site-packages/django/views/templates/default_urlconf.html:226
+msgid "Tutorial: A Polling App"
+msgstr ""
+
+#: venv/lib/python3.13/site-packages/django/views/templates/default_urlconf.html:227
+msgid "Get started with Django"
+msgstr ""
+
+#: venv/lib/python3.13/site-packages/django/views/templates/default_urlconf.html:235
+msgid "Django Community"
+msgstr ""
+
+#: venv/lib/python3.13/site-packages/django/views/templates/default_urlconf.html:236
+msgid "Connect, get help, or contribute"
+msgstr ""
+
+#, fuzzy
+#~| msgid ""
+#~| "Çalışma izni ve ikamet izni hizmetleri için güvenilir ortağınız. "
+#~| "Göçmenlik yolculuğunuz boyunca uzman rehberlik ve destek sağlıyoruz."
+#~ msgid ""
+#~ "Yabancılar için ikamet ve çalışma izni danışmanlık hizmetlerinde "
+#~ "güvenilir ortağınız. Göçmenlik yolculuğunuz boyunca uzman rehberlik ve "
+#~ "destek sağlıyoruz."
+#~ msgstr ""
+#~ "Your trusted partner for work permit and residence permit services. We "
+#~ "provide expert guidance and support throughout your immigration journey."
+
+#~ msgid "Hızlı Bağlantılar"
+#~ msgstr "Quick Links"
+
+#~ msgid "İletişim Bilgileri"
+#~ msgstr "Contact Information"
+
+#~ msgid "Pzt-Cum: 09:00 - 18:00"
+#~ msgstr "Mon-Fri: 9:00 AM - 6:00 PM"
+
+#~ msgid "Gizlilik Politikası"
+#~ msgstr "Privacy Policy"
+
+#~ msgid "Hizmet Şartları"
+#~ msgstr "Terms of Service"
+
+#~ msgid "Türkiye telefon numarası"
+#~ msgstr "Turkey phone number"
+
+#~ msgid "İngilizce telefon numarası"
+#~ msgstr "English phone number"
+
+#~ msgid "Rusça telefon numarası"
+#~ msgstr "Russian phone number"
+
+#~ msgid "[Ofis adresi buraya gelecek]"
+#~ msgstr "[Office address will be here]"
+
+#~ msgid "[Şehir, Posta Kodu]"
+#~ msgstr "[City, Postal Code]"
+
+#~ msgid "Bize Mesaj Gönderin"
+#~ msgstr "Send Us a Message"
+
+#~ msgid "Mesaj Gönder"
+#~ msgstr "Send Message"
+
+#~ msgid "TR Telefon"
+#~ msgstr "TR Phone"
+
+#~ msgid "EN Telefon"
+#~ msgstr "EN Phone"
+
+#~ msgid "RU Telefon"
+#~ msgstr "RU Phone"
+
+#~ msgid "Bize Ulaştığınız İçin Teşekkürler!"
+#~ msgstr "Thank You for Contacting Us!"
+
+#~ msgid ""
+#~ "Mesajınızı aldık ve bize ulaştığınız için gerçekten minnettarız. "
+#~ "Göçmenlik uzmanlarımız talebinizi inceleyecek ve 24 saat içinde "
+#~ "yanıtlayacak."
+#~ msgstr ""
+#~ "We've received your message and truly appreciate you reaching out to us. "
+#~ "Our immigration experts will review your inquiry and respond within 24 "
+#~ "hours."
+
+#~ msgid "Bundan Sonra Ne Olacak?"
+#~ msgstr "What Happens Next?"
+
+#, fuzzy
+#~| msgid "Uzman Danışmanlık Alın"
+#~ msgid "Ücretsiz Danışmanlık Al"
+#~ msgstr "Get Free Consultation"
+
+#~ msgid "Özel sağlık sigortası ve SGK işlemlerinizde danışmanlık hizmetleri."
+#~ msgstr ""
+#~ "Consultancy services for private health insurance and social security "
+#~ "procedures."
+
+#~ msgid "Türkçe Destek"
+#~ msgstr "Turkish Support"
+
+#, fuzzy
+#~| msgid "English"
+#~ msgid "English Support"
+#~ msgstr "English Support"
+
+#~ msgid "Русская поддержка"
+#~ msgstr "Russian Support"
+
+#, fuzzy
+#~| msgid "Hizmetler"
+#~ msgid "Tüm Hizmetler"
+#~ msgstr "All Services"
+
+#~ msgid "Uzman İkamet ve Vize Danışmanlığı Hizmetleri"
+#~ msgstr "Expert Residence and Visa Consultancy Services"
+
+#~ msgid ""
+#~ "Göçmenlik sürecinizde güvenle ilerleyin. Çalışma izni, ikamet izni ve "
+#~ "vize başvurularında uzman rehberlik sunuyoruz."
+#~ msgstr ""
+#~ "Navigate your immigration process with confidence. We provide expert "
+#~ "guidance for work permits, residence permits, and visa applications."
+
+#~ msgid "Uzman Danışmanlık Alın"
+#~ msgstr "Get Expert Consultation"
+
+#~ msgid "Profesyonel Hizmetlerimiz"
+#~ msgstr "Our Professional Services"
+
+#~ msgid ""
+#~ "Size özel tasarlanmış kapsamlı göçmenlik çözümleri. İlk danışmanlıktan "
+#~ "başarılı başvuru onayına kadar."
+#~ msgstr ""
+#~ "Comprehensive immigration solutions tailored to your unique needs. From "
+#~ "initial consultation to successful application approval."
+
+#~ msgid "Çalışma İzinleri"
+#~ msgstr "Work Permits"
+
+#~ msgid "Daha Fazla Bilgi"
+#~ msgstr "Learn More"
+
+#~ msgid "Randevu Al"
+#~ msgstr "Book Consultation"
+
+#~ msgid "Neden Hizmetlerimizi Seçmelisiniz?"
+#~ msgstr "Why Choose Our Services?"
+
+#~ msgid "Yüksek Başarı Oranı"
+#~ msgstr "High Success Rate"
+
+#~ msgid "Hızlı İşlem"
+#~ msgstr "Fast Processing"
+
+#~ msgid "Güvenli ve Gizli"
+#~ msgstr "Secure & Confidential"
+
+#~ msgid "Başarı Geçmişimiz"
+#~ msgstr "Our Track Record"
+
+#~ msgid "Başarılı Başvurular"
+#~ msgstr "Successful Applications"
+
+#~ msgid "Başarıyla işlenen izin ve vizeler"
+#~ msgstr "Permits and visas successfully processed"
+
+#~ msgid "Başarı Oranı"
+#~ msgstr "Success Rate"
+
+#~ msgid "İlk denemede onaylanan başvurular"
+#~ msgstr "Of applications approved on first attempt"
+
+#~ msgid "Yıllık Deneyim"
+#~ msgstr "Years Experience"
+
+#~ msgid "Göçmenlik ve izin hizmetlerinde"
+#~ msgstr "In immigration and permit services"
+
+#~ msgid "Nasıl Çalışıyoruz"
+#~ msgstr "How We Work"
+
+#~ msgid "İlk Danışmanlık"
+#~ msgstr "Initial Consultation"
+
+#~ msgid "Belge Hazırlığı"
+#~ msgstr "Document Preparation"
+
+#~ msgid "Başvuru Gönderimi"
+#~ msgstr "Application Submission"
+
+#~ msgid "Göçmenlik Yolculuğunuza Başlamaya Hazır mısınız?"
+#~ msgstr "Ready to Start Your Immigration Journey?"
+
+#~ msgid "Danışmanlık Randevusu"
+#~ msgstr "Schedule Consultation"
+
+#~ msgid "Tüm Hizmetleri Görüntüle"
+#~ msgstr "View All Services"
+
+#, fuzzy
+#~| msgid "Hizmet Şartları"
+#~ msgid "Ana Hizmet Alanlarımız"
+#~ msgstr "Terms of Service"
+
+#, fuzzy
+#~| msgid ""
+#~| "Türkiye'de çalışma izni başvuru sürecinizde profesyonel destek alın."
+#~ msgid ""
+#~ "Türkiye'de çalışma izni başvuru sürecinizde profesyonel destek alın. İlk "
+#~ "başvuru, yenileme ve işveren danışmanlığı hizmetleri."
+#~ msgstr ""
+#~ "Get professional support in your work permit application process in "
+#~ "Turkey."
+
+#, fuzzy
+#~| msgid "İzin Danışmanlığı"
+#~ msgid "İlk başvuru danışmanlığı"
+#~ msgstr "Permit Consultancy"
+
+#, fuzzy
+#~| msgid "Çalışma İzinleri"
+#~ msgid "Çalışma izni yenileme"
+#~ msgstr "Work Permit Renewal"
+
+#, fuzzy
+#~| msgid "Başvuru Desteği"
+#~ msgid "İşveren desteği"
+#~ msgstr "Employer Support"
+
+#, fuzzy
+#~| msgid "Daha Fazla Bilgi"
+#~ msgid "Detaylı Bilgi"
+#~ msgstr "Learn More"
+
+#, fuzzy
+#~| msgid "İkamet İzinleri"
+#~ msgid "Kısa vadeli ikamet izni"
+#~ msgstr "Short-Term Residence Permit"
+
+#, fuzzy
+#~| msgid "İkamet İzinleri"
+#~ msgid "Uzun vadeli ikamet izni"
+#~ msgstr "Long-Term Residence Permit"
+
+#, fuzzy
+#~| msgid "Aile Birleşimi"
+#~ msgid "Aile birleşimi ikameti"
+#~ msgstr "Family Reunification"
+
+#, fuzzy
+#~| msgid ""
+#~| "Türk vatandaşlığı başvuru sürecinizde kapsamlı rehberlik hizmetleri."
+#~ msgid ""
+#~ "Türk vatandaşlığı başvuru sürecinizde kapsamlı rehberlik hizmetleri. "
+#~ "Farklı yollarla vatandaşlık alma süreçleri."
+#~ msgstr ""
+#~ "Comprehensive guidance services in your Turkish citizenship application "
+#~ "process."
+
+#, fuzzy
+#~| msgid "İstisnaî Vatandaşlık"
+#~ msgid "İstisnai durum vatandaşlığı"
+#~ msgstr "Exceptional Citizenship"
+
+#, fuzzy
+#~| msgid "Olağan Vatandaşlık"
+#~ msgid "Evlilik yoluyla vatandaşlık"
+#~ msgstr "Ordinary Citizenship"
+
+#, fuzzy
+#~| msgid "Olağan Vatandaşlık"
+#~ msgid "Yatırım yoluyla vatandaşlık"
+#~ msgstr "Ordinary Citizenship"
+
+#, fuzzy
+#~| msgid "Neden Hizmetlerimizi Seçmelisiniz?"
+#~ msgid "Neden Bizi Seçmelisiniz?"
+#~ msgstr "Why Choose Our Services?"
+
+#, fuzzy
+#~| msgid "Uzman İkamet ve Vize Danışmanlığı Hizmetleri"
+#~ msgid "Yabancılar için yasal süreçlerde uzman danışmanlık hizmetleri."
+#~ msgstr "Professional Consultancy Services for Foreigners"
+
+#, fuzzy
+#~| msgid "Çalışma İzinleri"
+#~ msgid "Çalışma İzni Başvurusu"
+#~ msgstr "Work Permit Application"
+
+#, fuzzy
+#~| msgid "Çalışma İzinleri"
+#~ msgid "Çalışma İzni Yenileme"
+#~ msgstr "Work Permit Renewal"
+
+#, fuzzy
+#~| msgid "Başvuru Desteği"
+#~ msgid "İşveren Desteği"
+#~ msgstr "Employer Support"
+
+#~ msgid ""
+#~ "Kısa süreli ikamet için başvuru süreçleri ve gerekli belge hazırlığı."
+#~ msgstr ""
+#~ "Application processes and necessary document preparation for short-term "
+#~ "residence."
+
+#, fuzzy
+#~| msgid "İkamet İzinleri"
+#~ msgid "Uzun Dönem İkamet İzni"
+#~ msgstr "Long-Term Residence Permit"
+
+#~ msgid "Uzun süreli ikamet izni başvurusu ve süreç yönetimi."
+#~ msgstr "Long-term residence permit application and process management."
+
+#~ msgid "Aile Birleşimi"
+#~ msgstr "Family Reunification"
+
+#~ msgid "Aile birleşimi kapsamında ikamet izni başvuru süreçleri."
+#~ msgstr ""
+#~ "Residence permit application processes within the scope of family "
+#~ "reunification."
+
+#~ msgid ""
+#~ "Türk vatandaşlığı başvuru süreçlerinde kapsamlı danışmanlık hizmetleri."
+#~ msgstr ""
+#~ "Comprehensive consultancy services in Turkish citizenship application "
+#~ "processes."
+
+#~ msgid "Olağan Vatandaşlık"
+#~ msgstr "Ordinary Citizenship"
+
+#~ msgid "Özel durumlar için istisnaî vatandaşlık başvuru süreçleri."
+#~ msgstr ""
+#~ "Exceptional citizenship application processes for special situations."
+
+#~ msgid "Vatandaşlık Sınavı Hazırlığı"
+#~ msgstr "Citizenship Exam Preparation"
+
+#~ msgid ""
+#~ "Vatandaşlık sınavına hazırlık sürecinde danışmanlık ve kaynak desteği."
+#~ msgstr ""
+#~ "Consultancy and resource support in the citizenship exam preparation "
+#~ "process."
+
+#~ msgid "Özel Sağlık Sigortası"
+#~ msgstr "Private Health Insurance"
+
+#~ msgid ""
+#~ "Yabancılar için özel sağlık sigortası seçenekleri ve başvuru süreçleri."
+#~ msgstr ""
+#~ "Private health insurance options and application processes for foreigners."
+
+#~ msgid "SGK İşlemleri"
+#~ msgstr "Social Security Procedures"
+
+#~ msgid "Sosyal Güvenlik Kurumu'na kayıt ve prim ödeme işlemlerinde destek."
+#~ msgstr ""
+#~ "Support in registration and premium payment procedures to the Social "
+#~ "Security Institution."
+
+#~ msgid "Sağlık Güvence Belgesi"
+#~ msgstr "Health Assurance Certificate"
+
+#~ msgid ""
+#~ "İkamet izni başvuruları için gerekli sağlık güvence belgesi işlemleri."
+#~ msgstr ""
+#~ "Health assurance certificate procedures required for residence permit "
+#~ "applications."
+
+#~ msgid "Hemen Başlayın"
+#~ msgstr "Get Started Now"
+
+#~ msgid "Hizmetlerimiz - İzin Danışmanlığı"
+#~ msgstr "Our Services - Permit Consultancy"
+
+#~ msgid "Profesyonel Göçmenlik Hizmetleri"
+#~ msgstr "Professional Immigration Services"
+
+#, fuzzy
+#~| msgid "İstisnaî Vatandaşlık"
+#~ msgid "İstisnai Durum Vatandaşlığı"
+#~ msgstr "Exceptional Citizenship"
+
+#, fuzzy
+#~| msgid "Özel durumlar için istisnaî vatandaşlık başvuru süreçleri."
+#~ msgid ""
+#~ "Türk vatandaşı ile evli olan yabancılar için evlilik yoluyla vatandaşlık "
+#~ "başvuru süreçleri."
+#~ msgstr ""
+#~ "Exceptional citizenship application processes for special situations."
+
+#, fuzzy
+#~| msgid "Özel durumlar için istisnaî vatandaşlık başvuru süreçleri."
+#~ msgid ""
+#~ "Belirli miktarda yatırım yapan yabancılar için yatırım yoluyla "
+#~ "vatandaşlık başvuru süreçleri."
+#~ msgstr ""
+#~ "Exceptional citizenship application processes for special situations."
+
+#, fuzzy
+#~| msgid "Çalışma İzni Hizmetleri"
+#~ msgid "Başvuru Takip Hizmetleri"
+#~ msgstr "Work Permit Services"
+
+#, fuzzy
+#~| msgid "Hizmet Şartları"
+#~ msgid "Genel Şartlar"
+#~ msgstr "Terms of Service"
+
+#, fuzzy
+#~| msgid ""
+#~| "Türk vatandaşlığı başvuru süreçlerinde kapsamlı danışmanlık hizmetleri."
+#~ msgid ""
+#~ "Türk vatandaşlığı başvurusu için aşağıdaki genel şartların sağlanması "
+#~ "gerekmektedir:"
+#~ msgstr ""
+#~ "Comprehensive consultancy services in Turkish citizenship application "
+#~ "processes."
+
+#, fuzzy
+#~| msgid "Başvuru Gönderimi"
+#~ msgid "Başvuru Süreci"
+#~ msgstr "Application Submission"
+
+#, fuzzy
+#~| msgid ""
+#~| "Türk vatandaşlığı başvuru sürecinizde kapsamlı rehberlik hizmetleri."
+#~ msgid "Türk Vatandaşlığı Başvurunuz İçin Profesyonel Destek"
+#~ msgstr ""
+#~ "Comprehensive guidance services in your Turkish citizenship application "
+#~ "process."
+
+#, fuzzy
+#~| msgid "Uzman Danışmanlık Alın"
+#~ msgid "Danışmanlık Al"
+#~ msgstr "Get Expert Consultation"
+
+#, fuzzy
+#~| msgid "Çalışma İzni Hizmetleri"
+#~ msgid "Sunduğumuz İkamet İzni Hizmetleri"
+#~ msgstr "Work Permit Services"
+
+#, fuzzy
+#~| msgid "İkamet İzinleri"
+#~ msgid "Kısa Vadeli İkamet İzni"
+#~ msgstr "Short-Term Residence Permit"
+
+#, fuzzy
+#~| msgid "Aile Birleşimi"
+#~ msgid "Aile Birleşimi İkameti"
+#~ msgstr "Family Reunification"
+
+#, fuzzy
+#~| msgid "İkamet İzinleri"
+#~ msgid "İkamet İzni Yenileme"
+#~ msgstr "Residence Permits"
+
+#, fuzzy
+#~| msgid "Danışmanlık Randevusu"
+#~ msgid "Danışmanlık ve Planlama"
+#~ msgstr "Schedule Consultation"
+
+#, fuzzy
+#~| msgid "İletişim Bilgileri"
+#~ msgid "Önemli Bilgiler"
+#~ msgstr "Contact Information"
+
+#, fuzzy
+#~| msgid ""
+#~| "Türkiye'de çalışma izni başvuru sürecinizde profesyonel destek alın."
+#~ msgid ""
+#~ "Türkiye'de çalışma izni alma sürecinde kapsamlı danışmanlık ve "
+#~ "profesyonel destek hizmetleri."
+#~ msgstr ""
+#~ "Get professional support in your work permit application process in "
+#~ "Turkey."
+
+#, fuzzy
+#~| msgid "Çalışma İzni Hizmetleri"
+#~ msgid "Sunduğumuz Çalışma İzni Hizmetleri"
+#~ msgstr "Work Permit Services"
+
+#, fuzzy
+#~| msgid "İzin Danışmanlığı"
+#~ msgid "İlk Başvuru Danışmanlığı"
+#~ msgstr "Permit Consultancy"
+
+#, fuzzy
+#~| msgid "İzin Danışmanlığı"
+#~ msgid "İşveren Danışmanlığı"
+#~ msgstr "Permit Consultancy"
+
+#, fuzzy
+#~| msgid "İkamet İzinleri"
+#~ msgid "İkamet izni fotokopisi"
+#~ msgstr "Residence Permit"
+
+#, fuzzy
+#~| msgid "Sağlık Sigortası"
+#~ msgid "Sağlık raporu"
+#~ msgstr "Health Insurance"
+
+#~ msgid "Arabic"
+#~ msgstr "Arabic"
+
+#~ msgid "Hakkımızda"
+#~ msgstr "About Us"
+
+#~ msgid "Referanslar"
+#~ msgstr "Testimonials"
+
+#~ msgid "Vize Danışmanlığı"
+#~ msgstr "Visa Consultation"
+
+#~ msgid "Belge İncelemesi"
+#~ msgstr "Document Review"
+
+#~ msgid "123 İş Merkezi"
+#~ msgstr "123 Business District"
+
+#~ msgid "Profesyonel Şehir, PS 12345"
+#~ msgstr "Professional City, PC 12345"
