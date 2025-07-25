@@ -1,0 +1,176 @@
+{% extends 'base.html' %}
+
+{% block title %}Home - Permit Consultancy Services{% endblock %}
+
+{% block meta_description %}Professional work permit and residence permit consultancy services. Expert guidance, document review, and application support for your immigration needs.{% endblock %}
+
+{% block content %}
+<!-- Hero Section -->
+<section class="hero">
+    <div class="container">
+        <div class="hero-content">
+            <h1>Expert Permit & Visa Consultation Services</h1>
+            <p>Navigate your immigration journey with confidence. We provide professional guidance for work permits, residence permits, and visa applications with a proven track record of success.</p>
+            <a href="{% url 'contact' %}" class="cta-button">Get Expert Consultation</a>
+        </div>
+    </div>
+</section>
+
+<!-- Services Overview -->
+<section class="section">
+    <div class="container">
+        <div class="section-header">
+            <h2>Our Professional Services</h2>
+            <p>Comprehensive immigration solutions tailored to your unique needs. From initial consultation to successful application approval.</p>
+        </div>
+        
+        <div class="services-grid">
+            <!-- Work Permits -->
+            <div class="service-card">
+                <div class="service-icon">
+                    <i class="fas fa-briefcase"></i>
+                </div>
+                <h3>Work Permits</h3>
+                <p>Expert assistance with work permit applications for various countries and visa categories. We handle the complex paperwork and guide you through every step.</p>
+                <a href="{% url 'services' %}#work-permits" class="btn">Learn More</a>
+            </div>
+            
+            <!-- Residence Permits -->
+            <div class="service-card">
+                <div class="service-icon">
+                    <i class="fas fa-home"></i>
+                </div>
+                <h3>Residence Permits</h3>
+                <p>Complete support for residence permit applications, renewals, and family reunification processes. Make your new country feel like home.</p>
+                <a href="{% url 'services' %}#residence-permits" class="btn">Learn More</a>
+            </div>
+            
+            <!-- Consultation -->
+            <div class="service-card">
+                <div class="service-icon">
+                    <i class="fas fa-users"></i>
+                </div>
+                <h3>Expert Consultation</h3>
+                <p>Personalized consultation sessions to assess your eligibility, review documents, and create a strategic plan for your immigration goals.</p>
+                <a href="{% url 'contact' %}" class="btn">Book Consultation</a>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- Why Choose Us -->
+<section class="section" style="background-color: var(--background-white);">
+    <div class="container">
+        <div class="section-header">
+            <h2>Why Choose Our Services?</h2>
+            <p>With years of experience and a commitment to excellence, we're your trusted partner in achieving your immigration goals.</p>
+        </div>
+        
+        <div class="services-grid">
+            <div class="service-card" style="box-shadow: none; border: none;">
+                <div class="service-icon" style="background: linear-gradient(135deg, #48bb78, #38a169);">
+                    <i class="fas fa-check-circle"></i>
+                </div>
+                <h3>High Success Rate</h3>
+                <p>Over 95% success rate in permit applications with careful preparation and expert guidance throughout the process.</p>
+            </div>
+            
+            <div class="service-card" style="box-shadow: none; border: none;">
+                <div class="service-icon" style="background: linear-gradient(135deg, #ed8936, #dd6b20);">
+                    <i class="fas fa-clock"></i>
+                </div>
+                <h3>Fast Processing</h3>
+                <p>Streamlined processes and efficient document preparation to minimize waiting times and expedite your applications.</p>
+            </div>
+            
+            <div class="service-card" style="box-shadow: none; border: none;">
+                <div class="service-icon" style="background: linear-gradient(135deg, #9f7aea, #805ad5);">
+                    <i class="fas fa-shield-alt"></i>
+                </div>
+                <h3>Secure & Confidential</h3>
+                <p>Your personal information and documents are handled with the highest level of security and confidentiality.</p>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- Statistics Section -->
+<section class="section" style="background: linear-gradient(135deg, var(--primary-blue), var(--secondary-blue)); color: var(--text-white);">
+    <div class="container">
+        <div class="section-header">
+            <h2 style="color: var(--text-white);">Our Track Record</h2>
+            <p style="color: var(--light-blue);">Numbers that speak for our expertise and commitment to client success.</p>
+        </div>
+        
+        <div class="services-grid">
+            <div class="text-center">
+                <div style="font-size: 3rem; font-weight: bold; color: var(--light-blue); margin-bottom: 0.5rem;">500+</div>
+                <h3 style="color: var(--text-white);">Successful Applications</h3>
+                <p style="color: var(--light-blue);">Permits and visas successfully processed</p>
+            </div>
+            
+            <div class="text-center">
+                <div style="font-size: 3rem; font-weight: bold; color: var(--light-blue); margin-bottom: 0.5rem;">95%</div>
+                <h3 style="color: var(--text-white);">Success Rate</h3>
+                <p style="color: var(--light-blue);">Of applications approved on first attempt</p>
+            </div>
+            
+            <div class="text-center">
+                <div style="font-size: 3rem; font-weight: bold; color: var(--light-blue); margin-bottom: 0.5rem;">15+</div>
+                <h3 style="color: var(--text-white);">Years Experience</h3>
+                <p style="color: var(--light-blue);">In immigration and permit services</p>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- Process Steps -->
+<section class="section">
+    <div class="container">
+        <div class="section-header">
+            <h2>How We Work</h2>
+            <p>A transparent, step-by-step process designed to make your immigration journey as smooth as possible.</p>
+        </div>
+        
+        <div class="services-grid">
+            <div class="service-card">
+                <div class="service-icon" style="background: linear-gradient(135deg, #4299e1, #3182ce);">
+                    <span style="font-weight: bold; font-size: 1.5rem;">1</span>
+                </div>
+                <h3>Initial Consultation</h3>
+                <p>We assess your situation, discuss your goals, and determine the best immigration pathway for your specific needs.</p>
+            </div>
+            
+            <div class="service-card">
+                <div class="service-icon" style="background: linear-gradient(135deg, #4299e1, #3182ce);">
+                    <span style="font-weight: bold; font-size: 1.5rem;">2</span>
+                </div>
+                <h3>Document Preparation</h3>
+                <p>We help you gather, organize, and prepare all required documents to ensure your application meets all requirements.</p>
+            </div>
+            
+            <div class="service-card">
+                <div class="service-icon" style="background: linear-gradient(135deg, #4299e1, #3182ce);">
+                    <span style="font-weight: bold; font-size: 1.5rem;">3</span>
+                </div>
+                <h3>Application Submission</h3>
+                <p>We submit your application and monitor its progress, keeping you informed every step of the way until approval.</p>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- Call to Action -->
+<section class="section" style="background-color: var(--background-light);">
+    <div class="container text-center">
+        <h2>Ready to Start Your Immigration Journey?</h2>
+        <p style="font-size: 1.1rem; margin-bottom: 2rem; max-width: 600px; margin-left: auto; margin-right: auto;">
+            Don't let complex immigration processes hold you back. Contact us today for a consultation and take the first step towards achieving your immigration goals.
+        </p>
+        <div style="display: flex; gap: 1rem; justify-content: center; flex-wrap: wrap;">
+            <a href="{% url 'contact' %}" class="cta-button">Schedule Consultation</a>
+            <a href="{% url 'services' %}" class="cta-button" style="background-color: transparent; color: var(--primary-blue); border: 2px solid var(--primary-blue);">View All Services</a>
+        </div>
+    </div>
+</section>
+{% endblock %}
