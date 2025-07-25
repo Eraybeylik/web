@@ -1,0 +1,205 @@
+{% extends 'base.html' %}
+
+{% block title %}Thank You - Permit Consultancy{% endblock %}
+
+{% block meta_description %}Thank you for contacting Permit Consultancy. We've received your message and will respond within 24 hours.{% endblock %}
+
+{% block content %}
+<!-- Success Section -->
+<section class="section" style="padding: 6rem 0; text-align: center;">
+    <div class="container">
+        <div style="max-width: 600px; margin: 0 auto;">
+            <!-- Success Icon -->
+            <div style="width: 120px; height: 120px; background: linear-gradient(135deg, #48bb78, #38a169); border-radius: 50%; display: flex; align-items: center; justify-content: center; margin: 0 auto 2rem; animation: fadeInUp 0.8s ease-out;">
+                <i class="fas fa-check" style="color: white; font-size: 3rem;"></i>
+            </div>
+            
+            <h1 style="color: var(--primary-blue); margin-bottom: 1rem;">Thank You for Contacting Us!</h1>
+            
+            <p style="font-size: 1.2rem; margin-bottom: 2rem; color: var(--text-light);">
+                We've received your message and truly appreciate you reaching out to us. Our immigration experts will review your inquiry and respond within 24 hours.
+            </p>
+            
+            <!-- What Happens Next -->
+            <div style="background: var(--background-white); padding: 2rem; border-radius: 12px; box-shadow: var(--shadow-medium); margin-bottom: 3rem; text-align: left;">
+                <h3 style="color: var(--primary-blue); margin-bottom: 1.5rem; text-align: center;">
+                    <i class="fas fa-list-ol"></i> What Happens Next?
+                </h3>
+                
+                <div style="display: grid; gap: 1.5rem;">
+                    <div style="display: flex; align-items: start; gap: 1rem;">
+                        <div style="width: 30px; height: 30px; background: var(--accent-blue); border-radius: 50%; display: flex; align-items: center; justify-content: center; color: white; font-weight: bold; font-size: 0.875rem; flex-shrink: 0;">1</div>
+                        <div>
+                            <h4 style="margin: 0 0 0.5rem 0; color: var(--primary-blue);">Message Review</h4>
+                            <p style="margin: 0; color: var(--text-light);">Our team will carefully review your inquiry and assess your specific needs.</p>
+                        </div>
+                    </div>
+                    
+                    <div style="display: flex; align-items: start; gap: 1rem;">
+                        <div style="width: 30px; height: 30px; background: var(--accent-blue); border-radius: 50%; display: flex; align-items: center; justify-content: center; color: white; font-weight: bold; font-size: 0.875rem; flex-shrink: 0;">2</div>
+                        <div>
+                            <h4 style="margin: 0 0 0.5rem 0; color: var(--primary-blue);">Expert Assignment</h4>
+                            <p style="margin: 0; color: var(--text-light);">We'll assign the most suitable immigration expert based on your inquiry type.</p>
+                        </div>
+                    </div>
+                    
+                    <div style="display: flex; align-items: start; gap: 1rem;">
+                        <div style="width: 30px; height: 30px; background: var(--accent-blue); border-radius: 50%; display: flex; align-items: center; justify-content: center; color: white; font-weight: bold; font-size: 0.875rem; flex-shrink: 0;">3</div>
+                        <div>
+                            <h4 style="margin: 0 0 0.5rem 0; color: var(--primary-blue);">Personalized Response</h4>
+                            <p style="margin: 0; color: var(--text-light);">You'll receive a detailed response with initial guidance and next steps.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <!-- Contact Information -->
+            <div style="background: linear-gradient(135deg, var(--background-light), var(--background-white)); padding: 2rem; border-radius: 12px; margin-bottom: 3rem;">
+                <h3 style="color: var(--primary-blue); margin-bottom: 1rem;">
+                    <i class="fas fa-clock"></i> Need Immediate Assistance?
+                </h3>
+                <p style="margin-bottom: 1.5rem; color: var(--text-light);">
+                    For urgent matters, you can reach us directly using the contact methods below:
+                </p>
+                
+                <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); gap: 1rem;">
+                    <a href="tel:+15551234567" style="display: flex; align-items: center; justify-content: center; gap: 0.5rem; padding: 1rem; background: var(--primary-blue); color: white; border-radius: 8px; text-decoration: none; transition: var(--transition);">
+                        <i class="fas fa-phone"></i>
+                        <span>Call: +1 (555) 123-4567</span>
+                    </a>
+                    
+                    <a href="mailto:info@permitconsultancy.com" style="display: flex; align-items: center; justify-content: center; gap: 0.5rem; padding: 1rem; background: var(--secondary-blue); color: white; border-radius: 8px; text-decoration: none; transition: var(--transition);">
+                        <i class="fas fa-envelope"></i>
+                        <span>Email Us</span>
+                    </a>
+                </div>
+                
+                <p style="margin-top: 1rem; font-size: 0.9rem; color: var(--text-light);">
+                    <i class="fas fa-info-circle"></i> Business Hours: Monday-Friday 9AM-6PM, Saturday 10AM-4PM
+                </p>
+            </div>
+            
+            <!-- Action Buttons -->
+            <div style="display: flex; gap: 1rem; justify-content: center; flex-wrap: wrap;">
+                <a href="{% url 'home' %}" class="cta-button">
+                    <i class="fas fa-home"></i> Return to Homepage
+                </a>
+                <a href="{% url 'services' %}" class="cta-button" style="background-color: transparent; color: var(--primary-blue); border: 2px solid var(--primary-blue);">
+                    <i class="fas fa-briefcase"></i> View Our Services
+                </a>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- Additional Resources -->
+<section class="section" style="background-color: var(--background-white);">
+    <div class="container">
+        <div class="section-header">
+            <h2>While You Wait, Explore Our Resources</h2>
+            <p>Learn more about our services and immigration processes with these helpful resources.</p>
+        </div>
+        
+        <div class="services-grid">
+            <div class="service-card">
+                <div class="service-icon" style="background: linear-gradient(135deg, var(--secondary-blue), var(--accent-blue));">
+                    <i class="fas fa-book-open"></i>
+                </div>
+                <h3>Immigration Guide</h3>
+                <p>Comprehensive guides covering various immigration pathways and requirements for different countries.</p>
+                <a href="{% url 'services' %}" class="btn">Read Guides</a>
+            </div>
+            
+            <div class="service-card">
+                <div class="service-icon" style="background: linear-gradient(135deg, #38a169, #2f855a);">
+                    <i class="fas fa-file-alt"></i>
+                </div>
+                <h3>Document Checklist</h3>
+                <p>Detailed checklists for required documents for work permits, residence permits, and visa applications.</p>
+                <a href="{% url 'services' %}#document-review" class="btn">View Checklists</a>
+            </div>
+            
+            <div class="service-card">
+                <div class="service-icon" style="background: linear-gradient(135deg, #805ad5, #6b46c1);">
+                    <i class="fas fa-question-circle"></i>
+                </div>
+                <h3>FAQ Section</h3>
+                <p>Find answers to frequently asked questions about immigration processes and our services.</p>
+                <a href="{% url 'services' %}#faq" class="btn">Browse FAQ</a>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- Testimonials -->
+<section class="section" style="background: linear-gradient(135deg, var(--primary-blue), var(--secondary-blue)); color: var(--text-white);">
+    <div class="container">
+        <div class="section-header">
+            <h2 style="color: var(--text-white);">What Our Clients Say</h2>
+            <p style="color: var(--light-blue);">Read success stories from clients who trusted us with their immigration journey.</p>
+        </div>
+        
+        <div class="services-grid">
+            <div style="background: rgba(255,255,255,0.1); padding: 2rem; border-radius: 12px; text-align: center;">
+                <div style="margin-bottom: 1rem;">
+                    <i class="fas fa-star" style="color: #fbbf24;"></i>
+                    <i class="fas fa-star" style="color: #fbbf24;"></i>
+                    <i class="fas fa-star" style="color: #fbbf24;"></i>
+                    <i class="fas fa-star" style="color: #fbbf24;"></i>
+                    <i class="fas fa-star" style="color: #fbbf24;"></i>
+                </div>
+                <p style="color: var(--light-blue); font-style: italic; margin-bottom: 1rem;">
+                    "Professional, knowledgeable, and supportive throughout the entire process. They made my work permit application stress-free."
+                </p>
+                <strong style="color: var(--text-white);">Sarah M.</strong>
+                <div style="color: var(--light-blue); font-size: 0.9rem;">Software Engineer</div>
+            </div>
+            
+            <div style="background: rgba(255,255,255,0.1); padding: 2rem; border-radius: 12px; text-align: center;">
+                <div style="margin-bottom: 1rem;">
+                    <i class="fas fa-star" style="color: #fbbf24;"></i>
+                    <i class="fas fa-star" style="color: #fbbf24;"></i>
+                    <i class="fas fa-star" style="color: #fbbf24;"></i>
+                    <i class="fas fa-star" style="color: #fbbf24;"></i>
+                    <i class="fas fa-star" style="color: #fbbf24;"></i>
+                </div>
+                <p style="color: var(--light-blue); font-style: italic; margin-bottom: 1rem;">
+                    "Excellent service! They helped my family obtain residence permits efficiently. Highly recommend their expertise."
+                </p>
+                <strong style="color: var(--text-white);">Ahmed K.</strong>
+                <div style="color: var(--light-blue); font-size: 0.9rem;">Business Owner</div>
+            </div>
+            
+            <div style="background: rgba(255,255,255,0.1); padding: 2rem; border-radius: 12px; text-align: center;">
+                <div style="margin-bottom: 1rem;">
+                    <i class="fas fa-star" style="color: #fbbf24;"></i>
+                    <i class="fas fa-star" style="color: #fbbf24;"></i>
+                    <i class="fas fa-star" style="color: #fbbf24;"></i>
+                    <i class="fas fa-star" style="color: #fbbf24;"></i>
+                    <i class="fas fa-star" style="color: #fbbf24;"></i>
+                </div>
+                <p style="color: var(--light-blue); font-style: italic; margin-bottom: 1rem;">
+                    "Their detailed consultation saved me months of confusion. Clear guidance and successful outcome!"
+                </p>
+                <strong style="color: var(--text-white);">Maria L.</strong>
+                <div style="color: var(--light-blue); font-size: 0.9rem;">Healthcare Professional</div>
+            </div>
+        </div>
+    </div>
+</section>
+{% endblock %}
+
+{% block extra_css %}
+<style>
+@media (max-width: 768px) {
+    .section {
+        padding: 3rem 0;
+    }
+    
+    div[style*="display: flex"] {
+        flex-direction: column;
+        gap: 1rem;
+    }
+}
+</style>
+{% endblock %}

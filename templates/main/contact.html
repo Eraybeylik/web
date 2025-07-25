@@ -1,0 +1,245 @@
+{% extends 'base.html' %}
+
+{% block title %}Contact Us - Permit Consultancy{% endblock %}
+
+{% block meta_description %}Contact our immigration experts for professional permit and visa consultation. Schedule your consultation today and get expert guidance for your immigration needs.{% endblock %}
+
+{% block content %}
+<!-- Page Header -->
+<section class="hero" style="padding: 4rem 0;">
+    <div class="container">
+        <div class="hero-content">
+            <h1>Contact Our Immigration Experts</h1>
+            <p>Ready to start your immigration journey? Get in touch with our experienced consultants for personalized guidance and professional support.</p>
+        </div>
+    </div>
+</section>
+
+<!-- Contact Section -->
+<section class="section">
+    <div class="container">
+        <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 4rem; align-items: start;">
+            
+            <!-- Contact Form -->
+            <div class="form-container">
+                <h2 style="text-align: center; margin-bottom: 1.5rem;">Send Us a Message</h2>
+                <p style="text-align: center; margin-bottom: 2rem; color: var(--text-light);">
+                    Fill out the form below and we'll get back to you within 24 hours.
+                </p>
+                
+                <form method="post" novalidate>
+                    {% csrf_token %}
+                    
+                    <div class="form-group">
+                        {{ form.name }}
+                        {% if form.name.errors %}
+                            <div style="color: #c53030; font-size: 0.875rem; margin-top: 0.25rem;">
+                                {{ form.name.errors.0 }}
+                            </div>
+                        {% endif %}
+                    </div>
+                    
+                    <div class="form-group">
+                        {{ form.email }}
+                        {% if form.email.errors %}
+                            <div style="color: #c53030; font-size: 0.875rem; margin-top: 0.25rem;">
+                                {{ form.email.errors.0 }}
+                            </div>
+                        {% endif %}
+                    </div>
+                    
+                    <div class="form-group">
+                        {{ form.phone }}
+                        {% if form.phone.errors %}
+                            <div style="color: #c53030; font-size: 0.875rem; margin-top: 0.25rem;">
+                                {{ form.phone.errors.0 }}
+                            </div>
+                        {% endif %}
+                    </div>
+                    
+                    <div class="form-group">
+                        <label for="{{ form.inquiry_type.id_for_label }}" style="display: block; margin-bottom: 0.5rem; font-weight: 600; color: var(--primary-blue);">
+                            Type of Inquiry
+                        </label>
+                        {{ form.inquiry_type }}
+                        {% if form.inquiry_type.errors %}
+                            <div style="color: #c53030; font-size: 0.875rem; margin-top: 0.25rem;">
+                                {{ form.inquiry_type.errors.0 }}
+                            </div>
+                        {% endif %}
+                    </div>
+                    
+                    <div class="form-group">
+                        {{ form.subject }}
+                        {% if form.subject.errors %}
+                            <div style="color: #c53030; font-size: 0.875rem; margin-top: 0.25rem;">
+                                {{ form.subject.errors.0 }}
+                            </div>
+                        {% endif %}
+                    </div>
+                    
+                    <div class="form-group">
+                        {{ form.message }}
+                        {% if form.message.errors %}
+                            <div style="color: #c53030; font-size: 0.875rem; margin-top: 0.25rem;">
+                                {{ form.message.errors.0 }}
+                            </div>
+                        {% endif %}
+                    </div>
+                    
+                    <button type="submit" class="btn-primary">
+                        <i class="fas fa-paper-plane"></i> Send Message
+                    </button>
+                </form>
+            </div>
+            
+            <!-- Contact Information -->
+            <div>
+                <h2 style="margin-bottom: 1.5rem;">Get in Touch</h2>
+                <p style="margin-bottom: 2rem; color: var(--text-light); font-size: 1.1rem;">
+                    Our team of immigration experts is here to help you navigate the complex world of permits and visas. Contact us using any of the methods below.
+                </p>
+                
+                <!-- Contact Details -->
+                <div style="margin-bottom: 3rem;">
+                    <div style="display: flex; align-items: center; margin-bottom: 1.5rem; padding: 1rem; background: var(--background-white); border-radius: 8px; box-shadow: var(--shadow-light);">
+                        <div style="width: 60px; height: 60px; background: linear-gradient(135deg, var(--secondary-blue), var(--accent-blue)); border-radius: 50%; display: flex; align-items: center; justify-content: center; margin-right: 1rem;">
+                            <i class="fas fa-map-marker-alt" style="color: white; font-size: 1.2rem;"></i>
+                        </div>
+                        <div>
+                            <h4 style="margin: 0; color: var(--primary-blue);">Office Address</h4>
+                            <p style="margin: 0; color: var(--text-light);">123 Business District<br>Professional City, PC 12345</p>
+                        </div>
+                    </div>
+                    
+                    <div style="display: flex; align-items: center; margin-bottom: 1.5rem; padding: 1rem; background: var(--background-white); border-radius: 8px; box-shadow: var(--shadow-light);">
+                        <div style="width: 60px; height: 60px; background: linear-gradient(135deg, var(--secondary-blue), var(--accent-blue)); border-radius: 50%; display: flex; align-items: center; justify-content: center; margin-right: 1rem;">
+                            <i class="fas fa-phone" style="color: white; font-size: 1.2rem;"></i>
+                        </div>
+                        <div>
+                            <h4 style="margin: 0; color: var(--primary-blue);">Phone Number</h4>
+                            <p style="margin: 0; color: var(--text-light);">+1 (555) 123-4567</p>
+                        </div>
+                    </div>
+                    
+                    <div style="display: flex; align-items: center; margin-bottom: 1.5rem; padding: 1rem; background: var(--background-white); border-radius: 8px; box-shadow: var(--shadow-light);">
+                        <div style="width: 60px; height: 60px; background: linear-gradient(135deg, var(--secondary-blue), var(--accent-blue)); border-radius: 50%; display: flex; align-items: center; justify-content: center; margin-right: 1rem;">
+                            <i class="fas fa-envelope" style="color: white; font-size: 1.2rem;"></i>
+                        </div>
+                        <div>
+                            <h4 style="margin: 0; color: var(--primary-blue);">Email Address</h4>
+                            <p style="margin: 0; color: var(--text-light);">info@permitconsultancy.com</p>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Business Hours -->
+                <div style="background: var(--background-white); padding: 2rem; border-radius: 12px; box-shadow: var(--shadow-medium); margin-bottom: 2rem;">
+                    <h3 style="color: var(--primary-blue); margin-bottom: 1rem;">
+                        <i class="fas fa-clock"></i> Business Hours
+                    </h3>
+                    <div style="display: grid; gap: 0.5rem;">
+                        <div style="display: flex; justify-content: space-between;">
+                            <span style="color: var(--text-dark); font-weight: 500;">Monday - Friday</span>
+                            <span style="color: var(--text-light);">9:00 AM - 6:00 PM</span>
+                        </div>
+                        <div style="display: flex; justify-content: space-between;">
+                            <span style="color: var(--text-dark); font-weight: 500;">Saturday</span>
+                            <span style="color: var(--text-light);">10:00 AM - 4:00 PM</span>
+                        </div>
+                        <div style="display: flex; justify-content: space-between;">
+                            <span style="color: var(--text-dark); font-weight: 500;">Sunday</span>
+                            <span style="color: var(--text-light);">Closed</span>
+                        </div>
+                    </div>
+                    <div style="margin-top: 1rem; padding: 1rem; background: var(--background-light); border-radius: 6px;">
+                        <p style="margin: 0; font-size: 0.9rem; color: var(--text-light);">
+                            <i class="fas fa-info-circle"></i> Emergency consultations available by appointment outside regular hours.
+                        </p>
+                    </div>
+                </div>
+                
+                <!-- Quick Contact Options -->
+                <div style="background: linear-gradient(135deg, var(--primary-blue), var(--secondary-blue)); padding: 2rem; border-radius: 12px; color: var(--text-white);">
+                    <h3 style="color: var(--text-white); margin-bottom: 1rem;">
+                        <i class="fas fa-rocket"></i> Quick Contact Options
+                    </h3>
+                    <div style="margin-bottom: 1rem;">
+                        <p style="color: var(--light-blue); margin-bottom: 0.5rem;">Need immediate assistance?</p>
+                        <a href="tel:+15551234567" style="display: inline-block; background: rgba(255,255,255,0.2); color: var(--text-white); padding: 0.5rem 1rem; border-radius: 6px; text-decoration: none; margin-right: 0.5rem; margin-bottom: 0.5rem;">
+                            <i class="fas fa-phone"></i> Call Now
+                        </a>
+                        <a href="mailto:info@permitconsultancy.com" style="display: inline-block; background: rgba(255,255,255,0.2); color: var(--text-white); padding: 0.5rem 1rem; border-radius: 6px; text-decoration: none; margin-bottom: 0.5rem;">
+                            <i class="fas fa-envelope"></i> Email Us
+                        </a>
+                    </div>
+                    <p style="color: var(--light-blue); font-size: 0.9rem; margin: 0;">
+                        <i class="fas fa-clock"></i> Average response time: 2-4 hours during business days
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- Map Section (Placeholder) -->
+<section class="section" style="background-color: var(--background-white);">
+    <div class="container">
+        <div class="section-header">
+            <h2>Visit Our Office</h2>
+            <p>Conveniently located in the heart of the business district with easy access to public transportation.</p>
+        </div>
+        
+        <!-- Map Placeholder -->
+        <div style="background: linear-gradient(135deg, #e2e8f0, #cbd5e0); height: 400px; border-radius: 12px; display: flex; align-items: center; justify-content: center; color: var(--text-light); font-size: 1.1rem;">
+            <div style="text-align: center;">
+                <i class="fas fa-map-marked-alt" style="font-size: 3rem; margin-bottom: 1rem; color: var(--primary-blue);"></i>
+                <p style="margin: 0;">Interactive map would be embedded here</p>
+                <p style="margin: 0.5rem 0 0 0; font-size: 0.9rem;">123 Business District, Professional City, PC 12345</p>
+            </div>
+        </div>
+        
+        <!-- Location Benefits -->
+        <div class="services-grid" style="margin-top: 3rem;">
+            <div style="text-align: center;">
+                <div style="width: 60px; height: 60px; background: linear-gradient(135deg, var(--secondary-blue), var(--accent-blue)); border-radius: 50%; display: flex; align-items: center; justify-content: center; margin: 0 auto 1rem;">
+                    <i class="fas fa-subway" style="color: white; font-size: 1.2rem;"></i>
+                </div>
+                <h3>Public Transport</h3>
+                <p>5-minute walk from Central Metro Station</p>
+            </div>
+            
+            <div style="text-align: center;">
+                <div style="width: 60px; height: 60px; background: linear-gradient(135deg, var(--secondary-blue), var(--accent-blue)); border-radius: 50%; display: flex; align-items: center; justify-content: center; margin: 0 auto 1rem;">
+                    <i class="fas fa-car" style="color: white; font-size: 1.2rem;"></i>
+                </div>
+                <h3>Parking Available</h3>
+                <p>Complimentary parking for consultation appointments</p>
+            </div>
+            
+            <div style="text-align: center;">
+                <div style="width: 60px; height: 60px; background: linear-gradient(135deg, var(--secondary-blue), var(--accent-blue)); border-radius: 50%; display: flex; align-items: center; justify-content: center; margin: 0 auto 1rem;">
+                    <i class="fas fa-wheelchair" style="color: white; font-size: 1.2rem;"></i>
+                </div>
+                <h3>Accessible</h3>
+                <p>Fully accessible facilities for all clients</p>
+            </div>
+        </div>
+    </div>
+</section>
+{% endblock %}
+
+{% block extra_css %}
+<style>
+@media (max-width: 768px) {
+    .container > div[style*="grid-template-columns"] {
+        grid-template-columns: 1fr !important;
+        gap: 2rem !important;
+    }
+    
+    .form-container {
+        margin: 0;
+    }
+}
+</style>
+{% endblock %}
